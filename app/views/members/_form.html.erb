@@ -1,0 +1,41 @@
+<table class="attr">
+  <tr>
+    <th><%= f.label :number, "背番号" %></th>
+    <td><%= f.text_field :number, size:8%></td>
+  </tr>
+  <tr>
+    <th><%= f.label :name , "ユーザー名" %></th>
+    <td><%= f.text_field :name %></td>
+  </tr>
+  <tr>
+    <th><%= f.label :full_name , "氏名" %></th>
+    <td><%= f.text_field :full_name %></td>
+  </tr>
+  <tr>
+    <th>性別</th>
+    <td>
+      <%= f.radio_button :sex, 1 %>
+      <%= f.label :sex_1, "男" %>
+      <%= f.radio_button :sex, 2 %>
+      <%= f.label :sex_2, "女" %>
+    </td>
+  </tr>
+  <tr>
+    <th><%= f.label :birthday, "誕生日",
+        for: "member_birthday_1i" %></th>
+    <td><%= f.date_select :birthday,
+        start_year: 1940, end_year: Time.current.year,
+        use_month_numbers: true %></td>
+  </tr>
+  <tr>
+    <th><%= f.label :email, "メールアドレス" %></th>
+    <td><%= f.text_field :email %></td>
+  </tr>
+  <tr>
+    <th>管理者</th>
+    <td>
+      <%= f.check_box :administrator %>
+      <%= f.label :administrator , "管理者" %>
+    </td>
+  </tr>
+  </table>
