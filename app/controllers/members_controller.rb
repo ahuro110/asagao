@@ -1,6 +1,8 @@
 class MembersController < ApplicationController
+  before_action :login_required
+
   def index
-    @members = Member.order("number")
+    @members = Member.order("number").page(params[:page]).per(15)
   end
   def show
     @member = Member.find(params[:id])
@@ -37,7 +39,7 @@ class MembersController < ApplicationController
     redirect_to members_path
   end
   def search
-    @members = Member.search(params[:q])
+    @members = Member.search(params[:q]).page(params[:page]).per(15)
     render "index"
   end
 end

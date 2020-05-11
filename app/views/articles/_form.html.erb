@@ -1,0 +1,39 @@
+<%= render "shared/errors", obj: @article %>
+
+<table class="attr">
+  <tr>
+    <th><%= f.label :title %></th>
+    <td><%= f.text_field :title, size: 20 %></td>
+  </tr>
+  <tr>
+    <th><%= f.label :body %></th>
+    <td><%= f.text_area :body, rows:10,cols:45 %></td>
+  </tr>
+  <tr>
+    <th><%= f.label :released_at , for:"article_released_at_1i" %></th>
+    <td><%= f.datetime_select :released_at,
+            start_year: 2000,end_year: Time.current.year + 1,
+            use_month_numbers: true %></td>
+  </tr>
+  <tr>
+    <th><%= f.label :expired_at ,for: "article_expired_at_1i" %></th>
+    <td>
+      <div>
+        <%= f.check_box :no_expiration %>
+        <%= f.label :no_expiration %>
+      </div>
+      <div>
+        <%= f.datetime_select :expired_at,
+          start_year: 2000, end_year: Time.current.year + 1,
+          use_month_numbers: true %>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <th><%= Article.human_attribute_name(:number_only) %></th>
+    <td>
+      <%= f.check_box :member_only %>
+      <%= f.label :member_only %>
+    </td>
+  </tr>
+</table>

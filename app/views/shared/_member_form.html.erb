@@ -1,0 +1,53 @@
+<%= render "shared/errors" , obj: @member %>
+<table class="attr">
+  <tr>
+    <th><%= f.label :number %></th>
+    <td><%= f.text_field :number, size:8%></td>
+  </tr>
+  <tr>
+    <th><%= f.label :name  %></th>
+    <td><%= f.text_field :name %></td>
+  </tr>
+  <tr>
+    <th><%= f.label :full_name  %></th>
+    <td><%= f.text_field :full_name %></td>
+  </tr>
+  <tr>
+    <th><%= Member.human_attribute_name(:sex) %></th>
+    <td>
+      <%= f.radio_button :sex, 1 %>
+      <%= f.label :sex_1 %>
+      <%= f.radio_button :sex, 2 %>
+      <%= f.label :sex_2 %>
+    </td>
+  </tr>
+  <tr>
+    <th><%= f.label :birthday, 
+        for: "member_birthday_1i" %></th>
+    <td><%= f.date_select :birthday,
+        start_year: 1940, end_year: Time.current.year,
+        use_month_numbers: true %></td>
+  </tr>
+  <tr>
+    <th><%= f.label :email  %></th>
+    <td><%= f.text_field :email %></td>
+  </tr>
+  <% if @member.new_record? %>
+    <tr>
+      <th><%= f.label :password, "パスワード" %></th>
+      <th><%= f.text_field :password %></th>
+    </tr>
+  <% end %>
+  <% if controller.kind_of?(MembersController) %>
+    <tr>
+      <th>
+        <%= Member.human_attribute_name(:administrator) %>
+      </th>
+      <td>
+        <%= f.check_box :administrator,
+          disabled: !current_member.administrator? %>
+        <%= f.label :administrator %>
+      </td>
+    </tr>
+  <% end %>
+  </table>
