@@ -31,7 +31,12 @@ module Asagao
     config.generators.system_tests = nil
     config.time_zone = "Tokyo"
 
-    config.action_controller.permit_all_parameters = true
+    config.action_controller.permit_all_parameters = false
     config.i18n.default_locale = :ja
+
+    config.exceptions_app = ->(env) do
+      ErrorsController.action(:show).call(env)
+    end
+    end
   end
 end

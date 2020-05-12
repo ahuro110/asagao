@@ -11,7 +11,7 @@ class MembersController < ApplicationController
     @member = Member.new(birthday: Date.new(1980,1,1))
   end
   def create
-    @member = Member.new(params[:member])
+    @member = Member.new(member_params)
     if @member.save
       flash[:notice] = "会員を登録しました"
       redirect_to member_path(@member)
@@ -23,7 +23,7 @@ class MembersController < ApplicationController
     @member = Member.find(params[:id])
   end
   def update
-    @member = Member.find(params[:id])
+    @member = Member.find(member_params)
     @member.update(params[:member])
     if @member.save
       flash[:notice] = "会員情報を更新しました"
@@ -41,5 +41,21 @@ class MembersController < ApplicationController
   def search
     @members = Member.search(params[:q]).page(params[:page]).per(15)
     render "index"
+  end
+  private
+  def member_params
+    attrs=[
+      :number,
+      :name,
+      :full_name,
+      :sex,
+      :birthday,
+      :email,
+      :administrator
+    ]
+
+    attrs << :password if params[:action] == "create"
+
+    params.require.(:member).permit(attr)
   end
 end
