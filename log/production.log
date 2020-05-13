@@ -1,0 +1,718 @@
+I, [2020-05-12T13:54:21.946220 #10950]  INFO -- : [6d00e9cb-e672-4be2-ab03-8b814eb2c17a] Completed 500 Internal Server Error in 3ms
+l.erb within layouts/error (0.0ms)
+610713563430055_37130500'
+[6d00e9cb-e672-4be2-ab03-8b814eb2c17a] app/controllers/application_controller.rb:34:in `rescue_forbidden'
+     6:     <%= stylesheet_link_tag "application", media: "all" %>
+[6d00e9cb-e672-4be2-ab03-8b814eb2c17a]     7:   </head>
+[6d00e9cb-e672-4be2-ab03-8b814eb2c17a]     8:   <body>
+[6d00e9cb-e672-4be2-ab03-8b814eb2c17a]     9:     <div id="container">
+I, [2020-05-12T13:54:55.719337 #11042]  INFO -- : [126e0a2e-fa14-4017-828d-08a3e26eec6a] Started GET "/forbidden" for 10.0.2.2 at 2020-05-12 13:54:55 +0000
+I, [2020-05-12T13:54:55.720374 #11042]  INFO -- : [126e0a2e-fa14-4017-828d-08a3e26eec6a] Processing by TopController#forbidden as HTML
+I, [2020-05-12T13:54:55.730625 #11042]  INFO -- : [126e0a2e-fa14-4017-828d-08a3e26eec6a]   Rendering errors/forbidden.html.erb within layouts/error
+I, [2020-05-12T13:54:55.731376 #11042]  INFO -- : [126e0a2e-fa14-4017-828d-08a3e26eec6a]   Rendered errors/forbidden.html.erb within layouts/error (0.4ms)
+I, [2020-05-12T13:54:55.735920 #11042]  INFO -- : [126e0a2e-fa14-4017-828d-08a3e26eec6a]   Rendered shared/_footer.html.erb (0.5ms)
+I, [2020-05-12T13:54:55.736240 #11042]  INFO -- : [126e0a2e-fa14-4017-828d-08a3e26eec6a] Completed 403 Forbidden in 16ms (Views: 9.2ms)
+I, [2020-05-12T13:54:59.201438 #11042]  INFO -- : [a1cde352-aa80-4045-a3ec-e8e5ab1fc38c] Started GET "/" for 10.0.2.2 at 2020-05-12 13:54:59 +0000
+I, [2020-05-12T13:54:59.202254 #11042]  INFO -- : [a1cde352-aa80-4045-a3ec-e8e5ab1fc38c] Processing by TopController#index as HTML
+I, [2020-05-12T13:54:59.210141 #11042]  INFO -- : [a1cde352-aa80-4045-a3ec-e8e5ab1fc38c]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T13:54:59.210663 #11042]  INFO -- : [a1cde352-aa80-4045-a3ec-e8e5ab1fc38c]   Rendered errors/internal_server_error.html.erb within layouts/error (0.3ms)
+I, [2020-05-12T13:54:59.211354 #11042]  INFO -- : [a1cde352-aa80-4045-a3ec-e8e5ab1fc38c]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T13:54:59.211667 #11042]  INFO -- : [a1cde352-aa80-4045-a3ec-e8e5ab1fc38c] Completed 500 Internal Server Error in 9ms (Views: 4.3ms | ActiveRecord: 0.7ms)
+I, [2020-05-12T13:55:00.583421 #11042]  INFO -- : [5780055e-10f9-4813-b915-eec7aa085649] Started GET "/" for 10.0.2.2 at 2020-05-12 13:55:00 +0000
+I, [2020-05-12T13:55:00.584178 #11042]  INFO -- : [5780055e-10f9-4813-b915-eec7aa085649] Processing by TopController#index as HTML
+I, [2020-05-12T13:55:00.586018 #11042]  INFO -- : [5780055e-10f9-4813-b915-eec7aa085649]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T13:55:00.586278 #11042]  INFO -- : [5780055e-10f9-4813-b915-eec7aa085649]   Rendered errors/internal_server_error.html.erb within layouts/error (0.0ms)
+I, [2020-05-12T13:55:00.586872 #11042]  INFO -- : [5780055e-10f9-4813-b915-eec7aa085649]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T13:55:00.587151 #11042]  INFO -- : [5780055e-10f9-4813-b915-eec7aa085649] Completed 500 Internal Server Error in 3ms (Views: 1.3ms | ActiveRecord: 0.1ms)
+I, [2020-05-12T13:55:01.253571 #11042]  INFO -- : [a81ff434-81b5-41b2-bfde-4f98c1ac645d] Started GET "/" for 10.0.2.2 at 2020-05-12 13:55:01 +0000
+I, [2020-05-12T13:55:01.254507 #11042]  INFO -- : [a81ff434-81b5-41b2-bfde-4f98c1ac645d] Processing by TopController#index as HTML
+I, [2020-05-12T13:55:01.256526 #11042]  INFO -- : [a81ff434-81b5-41b2-bfde-4f98c1ac645d]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T13:55:01.256822 #11042]  INFO -- : [a81ff434-81b5-41b2-bfde-4f98c1ac645d]   Rendered errors/internal_server_error.html.erb within layouts/error (0.0ms)
+I, [2020-05-12T13:55:01.257569 #11042]  INFO -- : [a81ff434-81b5-41b2-bfde-4f98c1ac645d]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T13:55:01.257885 #11042]  INFO -- : [a81ff434-81b5-41b2-bfde-4f98c1ac645d] Completed 500 Internal Server Error in 3ms (Views: 1.5ms | ActiveRecord: 0.1ms)
+I, [2020-05-12T13:55:07.890483 #11042]  INFO -- : [30ab7fb6-7150-4fc8-ba0d-07a73725472e] Started GET "/members" for 10.0.2.2 at 2020-05-12 13:55:07 +0000
+I, [2020-05-12T13:55:07.891623 #11042]  INFO -- : [30ab7fb6-7150-4fc8-ba0d-07a73725472e] Processing by MembersController#index as HTML
+I, [2020-05-12T13:55:07.897272 #11042]  INFO -- : [30ab7fb6-7150-4fc8-ba0d-07a73725472e]   Rendering errors/login_required.html.erb within layouts/error
+I, [2020-05-12T13:55:07.973422 #11042]  INFO -- : [30ab7fb6-7150-4fc8-ba0d-07a73725472e]   Rendered errors/login_required.html.erb within layouts/error (75.9ms)
+I, [2020-05-12T13:55:07.973618 #11042]  INFO -- : [30ab7fb6-7150-4fc8-ba0d-07a73725472e] Completed 500 Internal Server Error in 82ms (ActiveRecord: 0.0ms)
+F, [2020-05-12T13:55:07.974138 #11042] FATAL -- : [30ab7fb6-7150-4fc8-ba0d-07a73725472e]   
+F, [2020-05-12T13:55:07.974237 #11042] FATAL -- : [30ab7fb6-7150-4fc8-ba0d-07a73725472e] ActionView::Template::Error (Missing partial shared/_login_form with {:locale=>[:ja], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/vagrant/work/asagao/app/views"
+  * "/home/vagrant/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/kaminari-core-1.2.0/app/views"
+):
+F, [2020-05-12T13:55:07.974361 #11042] FATAL -- : [30ab7fb6-7150-4fc8-ba0d-07a73725472e]     1: <% @page_title = "ログインが必要です"%>
+[30ab7fb6-7150-4fc8-ba0d-07a73725472e]     2: <h1><%= @page_title %></h1>
+[30ab7fb6-7150-4fc8-ba0d-07a73725472e]     3: 
+[30ab7fb6-7150-4fc8-ba0d-07a73725472e]     4: <%= render "shared/login_form"%>
+F, [2020-05-12T13:55:07.974431 #11042] FATAL -- : [30ab7fb6-7150-4fc8-ba0d-07a73725472e]   
+F, [2020-05-12T13:55:07.974526 #11042] FATAL -- : [30ab7fb6-7150-4fc8-ba0d-07a73725472e] app/views/errors/login_required.html.erb:4:in `_app_views_errors_login_required_html_erb__310275891179785090_31054900'
+[30ab7fb6-7150-4fc8-ba0d-07a73725472e] app/controllers/application_controller.rb:29:in `rescue_login_required'
+I, [2020-05-12T13:55:07.974843 #11042]  INFO -- : [30ab7fb6-7150-4fc8-ba0d-07a73725472e] Processing by ErrorsController#show as HTML
+I, [2020-05-12T13:55:07.975385 #11042]  INFO -- : [30ab7fb6-7150-4fc8-ba0d-07a73725472e]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T13:55:07.975538 #11042]  INFO -- : [30ab7fb6-7150-4fc8-ba0d-07a73725472e]   Rendered errors/internal_server_error.html.erb within layouts/error (0.0ms)
+I, [2020-05-12T13:55:07.976175 #11042]  INFO -- : [30ab7fb6-7150-4fc8-ba0d-07a73725472e]   Rendered shared/_footer.html.erb (0.2ms)
+I, [2020-05-12T13:55:07.976397 #11042]  INFO -- : [30ab7fb6-7150-4fc8-ba0d-07a73725472e] Completed 500 Internal Server Error in 1ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+I, [2020-05-12T13:55:09.828115 #11042]  INFO -- : [4087f451-159e-48b5-be29-f2cc59324937] Started GET "/members" for 10.0.2.2 at 2020-05-12 13:55:09 +0000
+I, [2020-05-12T13:55:09.828808 #11042]  INFO -- : [4087f451-159e-48b5-be29-f2cc59324937] Processing by MembersController#index as HTML
+I, [2020-05-12T13:55:09.830098 #11042]  INFO -- : [4087f451-159e-48b5-be29-f2cc59324937]   Rendering errors/login_required.html.erb within layouts/error
+I, [2020-05-12T13:55:09.850397 #11042]  INFO -- : [4087f451-159e-48b5-be29-f2cc59324937]   Rendered errors/login_required.html.erb within layouts/error (20.1ms)
+I, [2020-05-12T13:55:09.850622 #11042]  INFO -- : [4087f451-159e-48b5-be29-f2cc59324937] Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+F, [2020-05-12T13:55:09.851253 #11042] FATAL -- : [4087f451-159e-48b5-be29-f2cc59324937]   
+F, [2020-05-12T13:55:09.851394 #11042] FATAL -- : [4087f451-159e-48b5-be29-f2cc59324937] ActionView::Template::Error (Missing partial shared/_login_form with {:locale=>[:ja], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/vagrant/work/asagao/app/views"
+  * "/home/vagrant/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/kaminari-core-1.2.0/app/views"
+):
+F, [2020-05-12T13:55:09.851605 #11042] FATAL -- : [4087f451-159e-48b5-be29-f2cc59324937]     1: <% @page_title = "ログインが必要です"%>
+[4087f451-159e-48b5-be29-f2cc59324937]     2: <h1><%= @page_title %></h1>
+[4087f451-159e-48b5-be29-f2cc59324937]     3: 
+[4087f451-159e-48b5-be29-f2cc59324937]     4: <%= render "shared/login_form"%>
+F, [2020-05-12T13:55:09.851675 #11042] FATAL -- : [4087f451-159e-48b5-be29-f2cc59324937]   
+F, [2020-05-12T13:55:09.851752 #11042] FATAL -- : [4087f451-159e-48b5-be29-f2cc59324937] app/views/errors/login_required.html.erb:4:in `_app_views_errors_login_required_html_erb__310275891179785090_31054900'
+[4087f451-159e-48b5-be29-f2cc59324937] app/controllers/application_controller.rb:29:in `rescue_login_required'
+I, [2020-05-12T13:55:09.852056 #11042]  INFO -- : [4087f451-159e-48b5-be29-f2cc59324937] Processing by ErrorsController#show as HTML
+I, [2020-05-12T13:55:09.852445 #11042]  INFO -- : [4087f451-159e-48b5-be29-f2cc59324937]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T13:55:09.852540 #11042]  INFO -- : [4087f451-159e-48b5-be29-f2cc59324937]   Rendered errors/internal_server_error.html.erb within layouts/error (0.0ms)
+I, [2020-05-12T13:55:09.852952 #11042]  INFO -- : [4087f451-159e-48b5-be29-f2cc59324937]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T13:55:09.853129 #11042]  INFO -- : [4087f451-159e-48b5-be29-f2cc59324937] Completed 500 Internal Server Error in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+D, [2020-05-12T13:56:02.405778 #11084] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE IF EXISTS "articles"[0m
+D, [2020-05-12T13:56:02.407251 #11084] DEBUG -- :   [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+D, [2020-05-12T13:56:02.409339 #11084] DEBUG -- :   [1m[35m (1.8ms)[0m  [1m[35mCREATE TABLE "articles" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar NOT NULL, "body" text NOT NULL, "released_at" datetime NOT NULL, "expired_at" datetime, "member_only" boolean DEFAULT 0 NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+D, [2020-05-12T13:56:02.410375 #11084] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[35mDROP TABLE IF EXISTS "entries"[0m
+D, [2020-05-12T13:56:02.412280 #11084] DEBUG -- :   [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "entries" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "member_id" integer NOT NULL, "title" varchar NOT NULL, "body" text, "posted_at" datetime NOT NULL, "status" varchar DEFAULT 'draft' NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+D, [2020-05-12T13:56:02.414779 #11084] DEBUG -- :   [1m[35m (1.7ms)[0m  [1m[35mCREATE  INDEX "index_entries_on_member_id" ON "entries" ("member_id")[0m
+D, [2020-05-12T13:56:02.415824 #11084] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[35mDROP TABLE IF EXISTS "members"[0m
+D, [2020-05-12T13:56:02.417848 #11084] DEBUG -- :   [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "members" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "number" integer NOT NULL, "name" varchar NOT NULL, "full_name" varchar, "email" varchar, "birthday" date, "sex" integer DEFAULT 1 NOT NULL, "administrator" boolean DEFAULT 0 NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "password_digest" varchar)[0m
+D, [2020-05-12T13:56:02.427096 #11084] DEBUG -- :   [1m[35m (2.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+D, [2020-05-12T13:56:02.432219 #11084] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+D, [2020-05-12T13:56:02.435243 #11084] DEBUG -- :   [1m[35m (2.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20200512024130)[0m
+D, [2020-05-12T13:56:02.437692 #11084] DEBUG -- :   [1m[35m (2.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20200511044757),
+(20200511101841),
+(20200507102230);
+
+[0m
+D, [2020-05-12T13:56:02.441084 #11084] DEBUG -- :   [1m[35m (1.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+D, [2020-05-12T13:56:02.443660 #11084] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2020-05-12T13:56:02.447646 #11084] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2020-05-12T13:56:02.449968 #11084] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Create (1.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "production"], ["created_at", "2020-05-12 13:56:02.448137"], ["updated_at", "2020-05-12 13:56:02.448137"]]
+D, [2020-05-12T13:56:02.450892 #11084] DEBUG -- :   [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+D, [2020-05-12T13:56:02.452667 #11084] DEBUG -- :   [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+D, [2020-05-12T13:56:02.453510 #11084] DEBUG -- :   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+D, [2020-05-12T13:56:02.454029 #11084] DEBUG -- :   [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+D, [2020-05-12T13:56:02.458140 #11084] DEBUG -- :   [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+I, [2020-05-12T13:56:10.840315 #11118]  INFO -- : [ce7363a3-902b-482b-bcf1-6e186a5a223b] Started GET "/members" for 10.0.2.2 at 2020-05-12 13:56:10 +0000
+I, [2020-05-12T13:56:10.841289 #11118]  INFO -- : [ce7363a3-902b-482b-bcf1-6e186a5a223b] Processing by MembersController#index as HTML
+I, [2020-05-12T13:56:10.853405 #11118]  INFO -- : [ce7363a3-902b-482b-bcf1-6e186a5a223b]   Rendering errors/login_required.html.erb within layouts/error
+I, [2020-05-12T13:56:10.897643 #11118]  INFO -- : [ce7363a3-902b-482b-bcf1-6e186a5a223b]   Rendered errors/login_required.html.erb within layouts/error (44.0ms)
+I, [2020-05-12T13:56:10.897925 #11118]  INFO -- : [ce7363a3-902b-482b-bcf1-6e186a5a223b] Completed 500 Internal Server Error in 56ms
+F, [2020-05-12T13:56:10.898509 #11118] FATAL -- : [ce7363a3-902b-482b-bcf1-6e186a5a223b]   
+F, [2020-05-12T13:56:10.898641 #11118] FATAL -- : [ce7363a3-902b-482b-bcf1-6e186a5a223b] ActionView::Template::Error (Missing partial shared/_login_form with {:locale=>[:ja], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/vagrant/work/asagao/app/views"
+  * "/home/vagrant/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/kaminari-core-1.2.0/app/views"
+):
+F, [2020-05-12T13:56:10.898832 #11118] FATAL -- : [ce7363a3-902b-482b-bcf1-6e186a5a223b]     1: <% @page_title = "ログインが必要です"%>
+[ce7363a3-902b-482b-bcf1-6e186a5a223b]     2: <h1><%= @page_title %></h1>
+[ce7363a3-902b-482b-bcf1-6e186a5a223b]     3: 
+[ce7363a3-902b-482b-bcf1-6e186a5a223b]     4: <%= render "shared/login_form"%>
+F, [2020-05-12T13:56:10.898954 #11118] FATAL -- : [ce7363a3-902b-482b-bcf1-6e186a5a223b]   
+F, [2020-05-12T13:56:10.899122 #11118] FATAL -- : [ce7363a3-902b-482b-bcf1-6e186a5a223b] app/views/errors/login_required.html.erb:4:in `_app_views_errors_login_required_html_erb___412666397748028474_42880920'
+[ce7363a3-902b-482b-bcf1-6e186a5a223b] app/controllers/application_controller.rb:29:in `rescue_login_required'
+I, [2020-05-12T13:56:10.899516 #11118]  INFO -- : [ce7363a3-902b-482b-bcf1-6e186a5a223b] Processing by ErrorsController#show as HTML
+I, [2020-05-12T13:56:10.902308 #11118]  INFO -- : [ce7363a3-902b-482b-bcf1-6e186a5a223b]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T13:56:10.902861 #11118]  INFO -- : [ce7363a3-902b-482b-bcf1-6e186a5a223b]   Rendered errors/internal_server_error.html.erb within layouts/error (0.3ms)
+I, [2020-05-12T13:56:10.906786 #11118]  INFO -- : [ce7363a3-902b-482b-bcf1-6e186a5a223b]   Rendered shared/_footer.html.erb (0.4ms)
+I, [2020-05-12T13:56:10.907030 #11118]  INFO -- : [ce7363a3-902b-482b-bcf1-6e186a5a223b] Completed 500 Internal Server Error in 7ms (Views: 7.1ms)
+I, [2020-05-12T13:56:11.477091 #11118]  INFO -- : [6e2bda2d-0ed6-4bda-9142-ecbe03511bcc] Started GET "/members" for 10.0.2.2 at 2020-05-12 13:56:11 +0000
+I, [2020-05-12T13:56:11.477813 #11118]  INFO -- : [6e2bda2d-0ed6-4bda-9142-ecbe03511bcc] Processing by MembersController#index as HTML
+I, [2020-05-12T13:56:11.479114 #11118]  INFO -- : [6e2bda2d-0ed6-4bda-9142-ecbe03511bcc]   Rendering errors/login_required.html.erb within layouts/error
+I, [2020-05-12T13:56:11.504648 #11118]  INFO -- : [6e2bda2d-0ed6-4bda-9142-ecbe03511bcc]   Rendered errors/login_required.html.erb within layouts/error (25.3ms)
+I, [2020-05-12T13:56:11.504833 #11118]  INFO -- : [6e2bda2d-0ed6-4bda-9142-ecbe03511bcc] Completed 500 Internal Server Error in 27ms
+F, [2020-05-12T13:56:11.505401 #11118] FATAL -- : [6e2bda2d-0ed6-4bda-9142-ecbe03511bcc]   
+F, [2020-05-12T13:56:11.505519 #11118] FATAL -- : [6e2bda2d-0ed6-4bda-9142-ecbe03511bcc] ActionView::Template::Error (Missing partial shared/_login_form with {:locale=>[:ja], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/vagrant/work/asagao/app/views"
+  * "/home/vagrant/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/kaminari-core-1.2.0/app/views"
+):
+F, [2020-05-12T13:56:11.505963 #11118] FATAL -- : [6e2bda2d-0ed6-4bda-9142-ecbe03511bcc]     1: <% @page_title = "ログインが必要です"%>
+[6e2bda2d-0ed6-4bda-9142-ecbe03511bcc]     2: <h1><%= @page_title %></h1>
+[6e2bda2d-0ed6-4bda-9142-ecbe03511bcc]     3: 
+[6e2bda2d-0ed6-4bda-9142-ecbe03511bcc]     4: <%= render "shared/login_form"%>
+F, [2020-05-12T13:56:11.506046 #11118] FATAL -- : [6e2bda2d-0ed6-4bda-9142-ecbe03511bcc]   
+F, [2020-05-12T13:56:11.506128 #11118] FATAL -- : [6e2bda2d-0ed6-4bda-9142-ecbe03511bcc] app/views/errors/login_required.html.erb:4:in `_app_views_errors_login_required_html_erb___412666397748028474_42880920'
+[6e2bda2d-0ed6-4bda-9142-ecbe03511bcc] app/controllers/application_controller.rb:29:in `rescue_login_required'
+I, [2020-05-12T13:56:11.506494 #11118]  INFO -- : [6e2bda2d-0ed6-4bda-9142-ecbe03511bcc] Processing by ErrorsController#show as HTML
+I, [2020-05-12T13:56:11.506891 #11118]  INFO -- : [6e2bda2d-0ed6-4bda-9142-ecbe03511bcc]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T13:56:11.507045 #11118]  INFO -- : [6e2bda2d-0ed6-4bda-9142-ecbe03511bcc]   Rendered errors/internal_server_error.html.erb within layouts/error (0.0ms)
+I, [2020-05-12T13:56:11.507539 #11118]  INFO -- : [6e2bda2d-0ed6-4bda-9142-ecbe03511bcc]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T13:56:11.507708 #11118]  INFO -- : [6e2bda2d-0ed6-4bda-9142-ecbe03511bcc] Completed 500 Internal Server Error in 1ms (Views: 1.0ms)
+I, [2020-05-12T13:56:11.674812 #11118]  INFO -- : [1590256e-6fd3-40c3-9ebd-37d3abb16e52] Started GET "/members" for 10.0.2.2 at 2020-05-12 13:56:11 +0000
+I, [2020-05-12T13:56:11.675721 #11118]  INFO -- : [1590256e-6fd3-40c3-9ebd-37d3abb16e52] Processing by MembersController#index as HTML
+I, [2020-05-12T13:56:11.677004 #11118]  INFO -- : [1590256e-6fd3-40c3-9ebd-37d3abb16e52]   Rendering errors/login_required.html.erb within layouts/error
+I, [2020-05-12T13:56:11.700445 #11118]  INFO -- : [1590256e-6fd3-40c3-9ebd-37d3abb16e52]   Rendered errors/login_required.html.erb within layouts/error (23.3ms)
+I, [2020-05-12T13:56:11.700670 #11118]  INFO -- : [1590256e-6fd3-40c3-9ebd-37d3abb16e52] Completed 500 Internal Server Error in 25ms
+F, [2020-05-12T13:56:11.701348 #11118] FATAL -- : [1590256e-6fd3-40c3-9ebd-37d3abb16e52]   
+F, [2020-05-12T13:56:11.701551 #11118] FATAL -- : [1590256e-6fd3-40c3-9ebd-37d3abb16e52] ActionView::Template::Error (Missing partial shared/_login_form with {:locale=>[:ja], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/vagrant/work/asagao/app/views"
+  * "/home/vagrant/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/kaminari-core-1.2.0/app/views"
+):
+F, [2020-05-12T13:56:11.701728 #11118] FATAL -- : [1590256e-6fd3-40c3-9ebd-37d3abb16e52]     1: <% @page_title = "ログインが必要です"%>
+[1590256e-6fd3-40c3-9ebd-37d3abb16e52]     2: <h1><%= @page_title %></h1>
+[1590256e-6fd3-40c3-9ebd-37d3abb16e52]     3: 
+[1590256e-6fd3-40c3-9ebd-37d3abb16e52]     4: <%= render "shared/login_form"%>
+F, [2020-05-12T13:56:11.701808 #11118] FATAL -- : [1590256e-6fd3-40c3-9ebd-37d3abb16e52]   
+F, [2020-05-12T13:56:11.701915 #11118] FATAL -- : [1590256e-6fd3-40c3-9ebd-37d3abb16e52] app/views/errors/login_required.html.erb:4:in `_app_views_errors_login_required_html_erb___412666397748028474_42880920'
+[1590256e-6fd3-40c3-9ebd-37d3abb16e52] app/controllers/application_controller.rb:29:in `rescue_login_required'
+I, [2020-05-12T13:56:11.702380 #11118]  INFO -- : [1590256e-6fd3-40c3-9ebd-37d3abb16e52] Processing by ErrorsController#show as HTML
+I, [2020-05-12T13:56:11.702885 #11118]  INFO -- : [1590256e-6fd3-40c3-9ebd-37d3abb16e52]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T13:56:11.703032 #11118]  INFO -- : [1590256e-6fd3-40c3-9ebd-37d3abb16e52]   Rendered errors/internal_server_error.html.erb within layouts/error (0.0ms)
+I, [2020-05-12T13:56:11.703484 #11118]  INFO -- : [1590256e-6fd3-40c3-9ebd-37d3abb16e52]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T13:56:11.703692 #11118]  INFO -- : [1590256e-6fd3-40c3-9ebd-37d3abb16e52] Completed 500 Internal Server Error in 1ms (Views: 1.0ms)
+I, [2020-05-12T13:56:11.839700 #11118]  INFO -- : [1b3605fb-4918-4023-9507-6eeb3c673dac] Started GET "/members" for 10.0.2.2 at 2020-05-12 13:56:11 +0000
+I, [2020-05-12T13:56:11.840554 #11118]  INFO -- : [1b3605fb-4918-4023-9507-6eeb3c673dac] Processing by MembersController#index as HTML
+I, [2020-05-12T13:56:11.841681 #11118]  INFO -- : [1b3605fb-4918-4023-9507-6eeb3c673dac]   Rendering errors/login_required.html.erb within layouts/error
+I, [2020-05-12T13:56:11.867145 #11118]  INFO -- : [1b3605fb-4918-4023-9507-6eeb3c673dac]   Rendered errors/login_required.html.erb within layouts/error (25.2ms)
+I, [2020-05-12T13:56:11.867405 #11118]  INFO -- : [1b3605fb-4918-4023-9507-6eeb3c673dac] Completed 500 Internal Server Error in 27ms
+F, [2020-05-12T13:56:11.868133 #11118] FATAL -- : [1b3605fb-4918-4023-9507-6eeb3c673dac]   
+F, [2020-05-12T13:56:11.868336 #11118] FATAL -- : [1b3605fb-4918-4023-9507-6eeb3c673dac] ActionView::Template::Error (Missing partial shared/_login_form with {:locale=>[:ja], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/vagrant/work/asagao/app/views"
+  * "/home/vagrant/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/kaminari-core-1.2.0/app/views"
+):
+F, [2020-05-12T13:56:11.868579 #11118] FATAL -- : [1b3605fb-4918-4023-9507-6eeb3c673dac]     1: <% @page_title = "ログインが必要です"%>
+[1b3605fb-4918-4023-9507-6eeb3c673dac]     2: <h1><%= @page_title %></h1>
+[1b3605fb-4918-4023-9507-6eeb3c673dac]     3: 
+[1b3605fb-4918-4023-9507-6eeb3c673dac]     4: <%= render "shared/login_form"%>
+F, [2020-05-12T13:56:11.868713 #11118] FATAL -- : [1b3605fb-4918-4023-9507-6eeb3c673dac]   
+F, [2020-05-12T13:56:11.868798 #11118] FATAL -- : [1b3605fb-4918-4023-9507-6eeb3c673dac] app/views/errors/login_required.html.erb:4:in `_app_views_errors_login_required_html_erb___412666397748028474_42880920'
+[1b3605fb-4918-4023-9507-6eeb3c673dac] app/controllers/application_controller.rb:29:in `rescue_login_required'
+I, [2020-05-12T13:56:11.869136 #11118]  INFO -- : [1b3605fb-4918-4023-9507-6eeb3c673dac] Processing by ErrorsController#show as HTML
+I, [2020-05-12T13:56:11.869563 #11118]  INFO -- : [1b3605fb-4918-4023-9507-6eeb3c673dac]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T13:56:11.869681 #11118]  INFO -- : [1b3605fb-4918-4023-9507-6eeb3c673dac]   Rendered errors/internal_server_error.html.erb within layouts/error (0.0ms)
+I, [2020-05-12T13:56:11.870106 #11118]  INFO -- : [1b3605fb-4918-4023-9507-6eeb3c673dac]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T13:56:11.870323 #11118]  INFO -- : [1b3605fb-4918-4023-9507-6eeb3c673dac] Completed 500 Internal Server Error in 1ms (Views: 0.9ms)
+I, [2020-05-12T13:56:17.368821 #11118]  INFO -- : [5e6898ae-af5b-4262-9c62-7bdaef6ee07a] Started GET "/" for 10.0.2.2 at 2020-05-12 13:56:17 +0000
+I, [2020-05-12T13:56:17.369755 #11118]  INFO -- : [5e6898ae-af5b-4262-9c62-7bdaef6ee07a] Processing by TopController#index as HTML
+I, [2020-05-12T13:56:17.390258 #11118]  INFO -- : [5e6898ae-af5b-4262-9c62-7bdaef6ee07a]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T13:56:17.392997 #11118] DEBUG -- : [5e6898ae-af5b-4262-9c62-7bdaef6ee07a]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:56:17.371850') AND (expired_at > '2020-05-12 13:56:17.371850' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T13:56:17.393303 #11118]  INFO -- : [5e6898ae-af5b-4262-9c62-7bdaef6ee07a]   Rendered top/index.html.erb within layouts/application (2.8ms)
+I, [2020-05-12T13:56:17.398044 #11118]  INFO -- : [5e6898ae-af5b-4262-9c62-7bdaef6ee07a]   Rendered shared/_header.html.erb (0.9ms)
+I, [2020-05-12T13:56:17.405696 #11118]  INFO -- : [5e6898ae-af5b-4262-9c62-7bdaef6ee07a]   Rendered shared/_login.html.erb (0.9ms)
+D, [2020-05-12T13:56:17.407930 #11118] DEBUG -- : [5e6898ae-af5b-4262-9c62-7bdaef6ee07a]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:56:17.406025') AND (expired_at > '2020-05-12 13:56:17.406025' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T13:56:17.409920 #11118] DEBUG -- : [5e6898ae-af5b-4262-9c62-7bdaef6ee07a]   [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T13:56:17.410093 #11118]  INFO -- : [5e6898ae-af5b-4262-9c62-7bdaef6ee07a]   Rendered shared/_sidebar.html.erb (8.5ms)
+I, [2020-05-12T13:56:17.410402 #11118]  INFO -- : [5e6898ae-af5b-4262-9c62-7bdaef6ee07a]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T13:56:17.410780 #11118]  INFO -- : [5e6898ae-af5b-4262-9c62-7bdaef6ee07a] Completed 200 OK in 41ms (Views: 25.4ms | ActiveRecord: 3.8ms)
+I, [2020-05-12T13:56:24.122448 #11118]  INFO -- : [01c72309-1790-4428-bc35-667553468ee6] Started POST "/session" for 10.0.2.2 at 2020-05-12 13:56:24 +0000
+I, [2020-05-12T13:56:24.123504 #11118]  INFO -- : [01c72309-1790-4428-bc35-667553468ee6] Processing by SessionsController#create as HTML
+I, [2020-05-12T13:56:24.123747 #11118]  INFO -- : [01c72309-1790-4428-bc35-667553468ee6]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"QM8GqDddieoTX+Fco0img+6TL224PsIkWZbASUOMWjEw832mtWDW+TPWeTOu2FdocYYf8CHCH0uvjpBxSOBL0Q==", "name"=>"Taro", "password"=>"[FILTERED]"}
+D, [2020-05-12T13:56:24.127876 #11118] DEBUG -- : [01c72309-1790-4428-bc35-667553468ee6]   [1m[36mMember Load (0.6ms)[0m  [1m[34mSELECT  "members".* FROM "members" WHERE "members"."name" = ? LIMIT ?[0m  [["name", "Taro"], ["LIMIT", 1]]
+I, [2020-05-12T13:56:24.128432 #11118]  INFO -- : [01c72309-1790-4428-bc35-667553468ee6] Redirected to http://localhost:3000/
+I, [2020-05-12T13:56:24.128719 #11118]  INFO -- : [01c72309-1790-4428-bc35-667553468ee6] Completed 302 Found in 5ms (ActiveRecord: 1.8ms)
+I, [2020-05-12T13:56:24.132897 #11118]  INFO -- : [47a19b5e-f14c-4b72-a570-5e41eebacc0b] Started GET "/" for 10.0.2.2 at 2020-05-12 13:56:24 +0000
+I, [2020-05-12T13:56:24.133563 #11118]  INFO -- : [47a19b5e-f14c-4b72-a570-5e41eebacc0b] Processing by TopController#index as HTML
+I, [2020-05-12T13:56:24.134947 #11118]  INFO -- : [47a19b5e-f14c-4b72-a570-5e41eebacc0b]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T13:56:24.136017 #11118] DEBUG -- : [47a19b5e-f14c-4b72-a570-5e41eebacc0b]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:56:24.134262') AND (expired_at > '2020-05-12 13:56:24.134262' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T13:56:24.136276 #11118]  INFO -- : [47a19b5e-f14c-4b72-a570-5e41eebacc0b]   Rendered top/index.html.erb within layouts/application (1.1ms)
+I, [2020-05-12T13:56:24.137262 #11118]  INFO -- : [47a19b5e-f14c-4b72-a570-5e41eebacc0b]   Rendered shared/_header.html.erb (0.4ms)
+I, [2020-05-12T13:56:24.137829 #11118]  INFO -- : [47a19b5e-f14c-4b72-a570-5e41eebacc0b]   Rendered shared/_login.html.erb (0.2ms)
+D, [2020-05-12T13:56:24.139071 #11118] DEBUG -- : [47a19b5e-f14c-4b72-a570-5e41eebacc0b]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:56:24.138057') AND (expired_at > '2020-05-12 13:56:24.138057' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T13:56:24.140052 #11118] DEBUG -- : [47a19b5e-f14c-4b72-a570-5e41eebacc0b]   [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T13:56:24.140320 #11118]  INFO -- : [47a19b5e-f14c-4b72-a570-5e41eebacc0b]   Rendered shared/_sidebar.html.erb (2.8ms)
+I, [2020-05-12T13:56:24.140710 #11118]  INFO -- : [47a19b5e-f14c-4b72-a570-5e41eebacc0b]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T13:56:24.141090 #11118]  INFO -- : [47a19b5e-f14c-4b72-a570-5e41eebacc0b] Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 1.4ms)
+I, [2020-05-12T13:56:31.917326 #11118]  INFO -- : [c10ce870-f6cc-4faa-bc44-d7545280b0b2] Started POST "/session" for 10.0.2.2 at 2020-05-12 13:56:31 +0000
+I, [2020-05-12T13:56:31.918405 #11118]  INFO -- : [c10ce870-f6cc-4faa-bc44-d7545280b0b2] Processing by SessionsController#create as HTML
+I, [2020-05-12T13:56:31.918680 #11118]  INFO -- : [c10ce870-f6cc-4faa-bc44-d7545280b0b2]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"wtWbZnubB+hurE7VMuhiX6z17pNE4eWwrsvVhcfv2jey6eBo+aZY+04l1ro/eJO0M+DeDt0dON9Y04W9zIPL1w==", "name"=>"Jiro", "password"=>"[FILTERED]"}
+D, [2020-05-12T13:56:31.920741 #11118] DEBUG -- : [c10ce870-f6cc-4faa-bc44-d7545280b0b2]   [1m[36mMember Load (0.9ms)[0m  [1m[34mSELECT  "members".* FROM "members" WHERE "members"."name" = ? LIMIT ?[0m  [["name", "Jiro"], ["LIMIT", 1]]
+I, [2020-05-12T13:56:31.921155 #11118]  INFO -- : [c10ce870-f6cc-4faa-bc44-d7545280b0b2] Redirected to http://localhost:3000/
+I, [2020-05-12T13:56:31.921421 #11118]  INFO -- : [c10ce870-f6cc-4faa-bc44-d7545280b0b2] Completed 302 Found in 2ms (ActiveRecord: 0.9ms)
+I, [2020-05-12T13:56:31.925154 #11118]  INFO -- : [32dd57c0-a1f1-423a-bdcb-5702e2eff601] Started GET "/" for 10.0.2.2 at 2020-05-12 13:56:31 +0000
+I, [2020-05-12T13:56:31.925743 #11118]  INFO -- : [32dd57c0-a1f1-423a-bdcb-5702e2eff601] Processing by TopController#index as HTML
+I, [2020-05-12T13:56:31.927021 #11118]  INFO -- : [32dd57c0-a1f1-423a-bdcb-5702e2eff601]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T13:56:31.928110 #11118] DEBUG -- : [32dd57c0-a1f1-423a-bdcb-5702e2eff601]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:56:31.926358') AND (expired_at > '2020-05-12 13:56:31.926358' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T13:56:31.928360 #11118]  INFO -- : [32dd57c0-a1f1-423a-bdcb-5702e2eff601]   Rendered top/index.html.erb within layouts/application (1.1ms)
+I, [2020-05-12T13:56:31.929259 #11118]  INFO -- : [32dd57c0-a1f1-423a-bdcb-5702e2eff601]   Rendered shared/_header.html.erb (0.4ms)
+I, [2020-05-12T13:56:31.929793 #11118]  INFO -- : [32dd57c0-a1f1-423a-bdcb-5702e2eff601]   Rendered shared/_login.html.erb (0.2ms)
+D, [2020-05-12T13:56:31.931094 #11118] DEBUG -- : [32dd57c0-a1f1-423a-bdcb-5702e2eff601]   [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:56:31.930021') AND (expired_at > '2020-05-12 13:56:31.930021' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T13:56:31.931997 #11118] DEBUG -- : [32dd57c0-a1f1-423a-bdcb-5702e2eff601]   [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T13:56:31.932253 #11118]  INFO -- : [32dd57c0-a1f1-423a-bdcb-5702e2eff601]   Rendered shared/_sidebar.html.erb (2.7ms)
+I, [2020-05-12T13:56:31.932683 #11118]  INFO -- : [32dd57c0-a1f1-423a-bdcb-5702e2eff601]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T13:56:31.933002 #11118]  INFO -- : [32dd57c0-a1f1-423a-bdcb-5702e2eff601] Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 1.5ms)
+I, [2020-05-12T13:56:35.390991 #11118]  INFO -- : [ed4fb0ca-03d5-43b5-b0e9-62286cc24332] Started GET "/articles" for 10.0.2.2 at 2020-05-12 13:56:35 +0000
+I, [2020-05-12T13:56:35.391902 #11118]  INFO -- : [ed4fb0ca-03d5-43b5-b0e9-62286cc24332] Processing by ArticlesController#index as HTML
+I, [2020-05-12T13:56:35.393219 #11118]  INFO -- : [ed4fb0ca-03d5-43b5-b0e9-62286cc24332]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T13:56:35.393471 #11118]  INFO -- : [ed4fb0ca-03d5-43b5-b0e9-62286cc24332]   Rendered errors/internal_server_error.html.erb within layouts/error (0.0ms)
+I, [2020-05-12T13:56:35.394240 #11118]  INFO -- : [ed4fb0ca-03d5-43b5-b0e9-62286cc24332]   Rendered shared/_footer.html.erb (0.2ms)
+I, [2020-05-12T13:56:35.394573 #11118]  INFO -- : [ed4fb0ca-03d5-43b5-b0e9-62286cc24332] Completed 500 Internal Server Error in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+I, [2020-05-12T13:56:36.955374 #11118]  INFO -- : [edbfe5cd-bd85-4264-95df-9cb9d19757fd] Started GET "/" for 10.0.2.2 at 2020-05-12 13:56:36 +0000
+I, [2020-05-12T13:56:36.959807 #11118]  INFO -- : [edbfe5cd-bd85-4264-95df-9cb9d19757fd] Processing by TopController#index as HTML
+I, [2020-05-12T13:56:36.961121 #11118]  INFO -- : [edbfe5cd-bd85-4264-95df-9cb9d19757fd]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T13:56:36.962688 #11118] DEBUG -- : [edbfe5cd-bd85-4264-95df-9cb9d19757fd]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:56:36.960457') AND (expired_at > '2020-05-12 13:56:36.960457' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T13:56:36.962961 #11118]  INFO -- : [edbfe5cd-bd85-4264-95df-9cb9d19757fd]   Rendered top/index.html.erb within layouts/application (1.6ms)
+I, [2020-05-12T13:56:36.963850 #11118]  INFO -- : [edbfe5cd-bd85-4264-95df-9cb9d19757fd]   Rendered shared/_header.html.erb (0.3ms)
+I, [2020-05-12T13:56:36.964476 #11118]  INFO -- : [edbfe5cd-bd85-4264-95df-9cb9d19757fd]   Rendered shared/_login.html.erb (0.2ms)
+D, [2020-05-12T13:56:36.965704 #11118] DEBUG -- : [edbfe5cd-bd85-4264-95df-9cb9d19757fd]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:56:36.964663') AND (expired_at > '2020-05-12 13:56:36.964663' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T13:56:36.966543 #11118] DEBUG -- : [edbfe5cd-bd85-4264-95df-9cb9d19757fd]   [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T13:56:36.966754 #11118]  INFO -- : [edbfe5cd-bd85-4264-95df-9cb9d19757fd]   Rendered shared/_sidebar.html.erb (2.6ms)
+I, [2020-05-12T13:56:36.967121 #11118]  INFO -- : [edbfe5cd-bd85-4264-95df-9cb9d19757fd]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T13:56:36.967398 #11118]  INFO -- : [edbfe5cd-bd85-4264-95df-9cb9d19757fd] Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 1.7ms)
+I, [2020-05-12T13:56:36.970157 #11118]  INFO -- : [62d43777-692e-4ac4-ae7a-1fa2884e4e9d] Started GET "/" for 10.0.2.2 at 2020-05-12 13:56:36 +0000
+I, [2020-05-12T13:56:36.970845 #11118]  INFO -- : [62d43777-692e-4ac4-ae7a-1fa2884e4e9d] Processing by TopController#index as HTML
+I, [2020-05-12T13:56:36.972199 #11118]  INFO -- : [62d43777-692e-4ac4-ae7a-1fa2884e4e9d]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T13:56:36.973268 #11118] DEBUG -- : [62d43777-692e-4ac4-ae7a-1fa2884e4e9d]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:56:36.971520') AND (expired_at > '2020-05-12 13:56:36.971520' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T13:56:36.973502 #11118]  INFO -- : [62d43777-692e-4ac4-ae7a-1fa2884e4e9d]   Rendered top/index.html.erb within layouts/application (1.1ms)
+I, [2020-05-12T13:56:36.974501 #11118]  INFO -- : [62d43777-692e-4ac4-ae7a-1fa2884e4e9d]   Rendered shared/_header.html.erb (0.5ms)
+I, [2020-05-12T13:56:36.975106 #11118]  INFO -- : [62d43777-692e-4ac4-ae7a-1fa2884e4e9d]   Rendered shared/_login.html.erb (0.2ms)
+D, [2020-05-12T13:56:36.976593 #11118] DEBUG -- : [62d43777-692e-4ac4-ae7a-1fa2884e4e9d]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:56:36.975324') AND (expired_at > '2020-05-12 13:56:36.975324' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T13:56:36.977639 #11118] DEBUG -- : [62d43777-692e-4ac4-ae7a-1fa2884e4e9d]   [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T13:56:36.977859 #11118]  INFO -- : [62d43777-692e-4ac4-ae7a-1fa2884e4e9d]   Rendered shared/_sidebar.html.erb (3.0ms)
+I, [2020-05-12T13:56:36.978268 #11118]  INFO -- : [62d43777-692e-4ac4-ae7a-1fa2884e4e9d]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T13:56:36.978606 #11118]  INFO -- : [62d43777-692e-4ac4-ae7a-1fa2884e4e9d] Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 1.4ms)
+I, [2020-05-12T13:56:36.982241 #11118]  INFO -- : [75860b9a-dd5c-4370-83d6-0bc349a5c320] Started GET "/" for 10.0.2.2 at 2020-05-12 13:56:36 +0000
+I, [2020-05-12T13:56:36.982970 #11118]  INFO -- : [75860b9a-dd5c-4370-83d6-0bc349a5c320] Processing by TopController#index as HTML
+I, [2020-05-12T13:56:36.984363 #11118]  INFO -- : [75860b9a-dd5c-4370-83d6-0bc349a5c320]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T13:56:36.985626 #11118] DEBUG -- : [75860b9a-dd5c-4370-83d6-0bc349a5c320]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:56:36.983633') AND (expired_at > '2020-05-12 13:56:36.983633' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T13:56:36.985916 #11118]  INFO -- : [75860b9a-dd5c-4370-83d6-0bc349a5c320]   Rendered top/index.html.erb within layouts/application (1.3ms)
+I, [2020-05-12T13:56:36.987109 #11118]  INFO -- : [75860b9a-dd5c-4370-83d6-0bc349a5c320]   Rendered shared/_header.html.erb (0.4ms)
+I, [2020-05-12T13:56:36.987694 #11118]  INFO -- : [75860b9a-dd5c-4370-83d6-0bc349a5c320]   Rendered shared/_login.html.erb (0.2ms)
+D, [2020-05-12T13:56:36.989111 #11118] DEBUG -- : [75860b9a-dd5c-4370-83d6-0bc349a5c320]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:56:36.987912') AND (expired_at > '2020-05-12 13:56:36.987912' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T13:56:36.989965 #11118] DEBUG -- : [75860b9a-dd5c-4370-83d6-0bc349a5c320]   [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T13:56:36.990205 #11118]  INFO -- : [75860b9a-dd5c-4370-83d6-0bc349a5c320]   Rendered shared/_sidebar.html.erb (2.8ms)
+I, [2020-05-12T13:56:36.990497 #11118]  INFO -- : [75860b9a-dd5c-4370-83d6-0bc349a5c320]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T13:56:36.990795 #11118]  INFO -- : [75860b9a-dd5c-4370-83d6-0bc349a5c320] Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 1.5ms)
+I, [2020-05-12T13:58:26.764252 #11160]  INFO -- : [f2bb6329-1efa-4b85-9b2e-2b1caa766850] Started POST "/session" for 10.0.2.2 at 2020-05-12 13:58:26 +0000
+I, [2020-05-12T13:58:26.765267 #11160]  INFO -- : [f2bb6329-1efa-4b85-9b2e-2b1caa766850] Processing by SessionsController#create as HTML
+I, [2020-05-12T13:58:26.765495 #11160]  INFO -- : [f2bb6329-1efa-4b85-9b2e-2b1caa766850]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"Bg1PjO1DH6iiehroTf7YcTbZD5VqMHPJR6BCzDmQ8FR2MTSCb35Au4LzgodAbimaqcw/CPPMrqaxuBL0MvzhtA==", "name"=>"Jiro", "password"=>"[FILTERED]"}
+D, [2020-05-12T13:58:26.779758 #11160] DEBUG -- : [f2bb6329-1efa-4b85-9b2e-2b1caa766850]   [1m[36mMember Load (0.5ms)[0m  [1m[34mSELECT  "members".* FROM "members" WHERE "members"."name" = ? LIMIT ?[0m  [["name", "Jiro"], ["LIMIT", 1]]
+I, [2020-05-12T13:58:26.780280 #11160]  INFO -- : [f2bb6329-1efa-4b85-9b2e-2b1caa766850] Redirected to http://localhost:3000/
+I, [2020-05-12T13:58:26.780555 #11160]  INFO -- : [f2bb6329-1efa-4b85-9b2e-2b1caa766850] Completed 302 Found in 15ms (ActiveRecord: 2.2ms)
+I, [2020-05-12T13:58:26.784507 #11160]  INFO -- : [54638660-5689-4fcc-90a7-554e24cdffca] Started GET "/" for 10.0.2.2 at 2020-05-12 13:58:26 +0000
+I, [2020-05-12T13:58:26.785287 #11160]  INFO -- : [54638660-5689-4fcc-90a7-554e24cdffca] Processing by TopController#index as HTML
+I, [2020-05-12T13:58:26.794582 #11160]  INFO -- : [54638660-5689-4fcc-90a7-554e24cdffca]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T13:58:26.796821 #11160] DEBUG -- : [54638660-5689-4fcc-90a7-554e24cdffca]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:58:26.786133') AND (expired_at > '2020-05-12 13:58:26.786133' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T13:58:26.797124 #11160]  INFO -- : [54638660-5689-4fcc-90a7-554e24cdffca]   Rendered top/index.html.erb within layouts/application (2.3ms)
+I, [2020-05-12T13:58:26.801718 #11160]  INFO -- : [54638660-5689-4fcc-90a7-554e24cdffca]   Rendered shared/_header.html.erb (1.1ms)
+I, [2020-05-12T13:58:26.806470 #11160]  INFO -- : [54638660-5689-4fcc-90a7-554e24cdffca]   Rendered shared/_login.html.erb (0.5ms)
+D, [2020-05-12T13:58:26.807522 #11160] DEBUG -- : [54638660-5689-4fcc-90a7-554e24cdffca]   [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:58:26.806621') AND (expired_at > '2020-05-12 13:58:26.806621' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T13:58:26.809058 #11160] DEBUG -- : [54638660-5689-4fcc-90a7-554e24cdffca]   [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T13:58:26.809299 #11160]  INFO -- : [54638660-5689-4fcc-90a7-554e24cdffca]   Rendered shared/_sidebar.html.erb (5.5ms)
+I, [2020-05-12T13:58:26.813294 #11160]  INFO -- : [54638660-5689-4fcc-90a7-554e24cdffca]   Rendered shared/_footer.html.erb (0.3ms)
+I, [2020-05-12T13:58:26.813609 #11160]  INFO -- : [54638660-5689-4fcc-90a7-554e24cdffca] Completed 200 OK in 28ms (Views: 21.2ms | ActiveRecord: 2.5ms)
+I, [2020-05-12T13:58:31.046629 #11160]  INFO -- : [f59a57bd-1cae-40eb-b752-4ec68f0f9cc6] Started GET "/entries" for 10.0.2.2 at 2020-05-12 13:58:31 +0000
+I, [2020-05-12T13:58:31.047547 #11160]  INFO -- : [f59a57bd-1cae-40eb-b752-4ec68f0f9cc6] Processing by EntriesController#index as HTML
+I, [2020-05-12T13:58:31.055475 #11160]  INFO -- : [f59a57bd-1cae-40eb-b752-4ec68f0f9cc6]   Rendering errors/login_required.html.erb within layouts/error
+I, [2020-05-12T13:58:31.099326 #11160]  INFO -- : [f59a57bd-1cae-40eb-b752-4ec68f0f9cc6]   Rendered errors/login_required.html.erb within layouts/error (43.6ms)
+I, [2020-05-12T13:58:31.099546 #11160]  INFO -- : [f59a57bd-1cae-40eb-b752-4ec68f0f9cc6] Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms)
+F, [2020-05-12T13:58:31.100114 #11160] FATAL -- : [f59a57bd-1cae-40eb-b752-4ec68f0f9cc6]   
+F, [2020-05-12T13:58:31.100189 #11160] FATAL -- : [f59a57bd-1cae-40eb-b752-4ec68f0f9cc6] ActionView::Template::Error (Missing partial shared/_login_form with {:locale=>[:ja], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/vagrant/work/asagao/app/views"
+  * "/home/vagrant/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/kaminari-core-1.2.0/app/views"
+):
+F, [2020-05-12T13:58:31.100336 #11160] FATAL -- : [f59a57bd-1cae-40eb-b752-4ec68f0f9cc6]     1: <% @page_title = "ログインが必要です"%>
+[f59a57bd-1cae-40eb-b752-4ec68f0f9cc6]     2: <h1><%= @page_title %></h1>
+[f59a57bd-1cae-40eb-b752-4ec68f0f9cc6]     3: 
+[f59a57bd-1cae-40eb-b752-4ec68f0f9cc6]     4: <%= render "shared/login_form"%>
+F, [2020-05-12T13:58:31.100399 #11160] FATAL -- : [f59a57bd-1cae-40eb-b752-4ec68f0f9cc6]   
+F, [2020-05-12T13:58:31.100462 #11160] FATAL -- : [f59a57bd-1cae-40eb-b752-4ec68f0f9cc6] app/views/errors/login_required.html.erb:4:in `_app_views_errors_login_required_html_erb__4499439314690807133_35748760'
+[f59a57bd-1cae-40eb-b752-4ec68f0f9cc6] app/controllers/application_controller.rb:29:in `rescue_login_required'
+I, [2020-05-12T13:58:31.100832 #11160]  INFO -- : [f59a57bd-1cae-40eb-b752-4ec68f0f9cc6] Processing by ErrorsController#show as HTML
+I, [2020-05-12T13:58:31.103600 #11160]  INFO -- : [f59a57bd-1cae-40eb-b752-4ec68f0f9cc6]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T13:58:31.104043 #11160]  INFO -- : [f59a57bd-1cae-40eb-b752-4ec68f0f9cc6]   Rendered errors/internal_server_error.html.erb within layouts/error (0.3ms)
+I, [2020-05-12T13:58:31.104889 #11160]  INFO -- : [f59a57bd-1cae-40eb-b752-4ec68f0f9cc6]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T13:58:31.105117 #11160]  INFO -- : [f59a57bd-1cae-40eb-b752-4ec68f0f9cc6] Completed 500 Internal Server Error in 4ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+I, [2020-05-12T13:58:32.322474 #11160]  INFO -- : [a251c42b-634d-428f-95b2-952e0dfc337b] Started GET "/" for 10.0.2.2 at 2020-05-12 13:58:32 +0000
+I, [2020-05-12T13:58:32.323283 #11160]  INFO -- : [a251c42b-634d-428f-95b2-952e0dfc337b] Processing by TopController#index as HTML
+I, [2020-05-12T13:58:32.324894 #11160]  INFO -- : [a251c42b-634d-428f-95b2-952e0dfc337b]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T13:58:32.326123 #11160] DEBUG -- : [a251c42b-634d-428f-95b2-952e0dfc337b]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:58:32.324024') AND (expired_at > '2020-05-12 13:58:32.324024' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T13:58:32.326395 #11160]  INFO -- : [a251c42b-634d-428f-95b2-952e0dfc337b]   Rendered top/index.html.erb within layouts/application (1.3ms)
+I, [2020-05-12T13:58:32.327355 #11160]  INFO -- : [a251c42b-634d-428f-95b2-952e0dfc337b]   Rendered shared/_header.html.erb (0.4ms)
+I, [2020-05-12T13:58:32.327967 #11160]  INFO -- : [a251c42b-634d-428f-95b2-952e0dfc337b]   Rendered shared/_login.html.erb (0.3ms)
+D, [2020-05-12T13:58:32.329114 #11160] DEBUG -- : [a251c42b-634d-428f-95b2-952e0dfc337b]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:58:32.328132') AND (expired_at > '2020-05-12 13:58:32.328132' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T13:58:32.330208 #11160] DEBUG -- : [a251c42b-634d-428f-95b2-952e0dfc337b]   [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T13:58:32.330708 #11160]  INFO -- : [a251c42b-634d-428f-95b2-952e0dfc337b]   Rendered shared/_sidebar.html.erb (3.0ms)
+I, [2020-05-12T13:58:32.331153 #11160]  INFO -- : [a251c42b-634d-428f-95b2-952e0dfc337b]   Rendered shared/_footer.html.erb (0.2ms)
+I, [2020-05-12T13:58:32.331616 #11160]  INFO -- : [a251c42b-634d-428f-95b2-952e0dfc337b] Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 1.6ms)
+I, [2020-05-12T13:58:32.354724 #11160]  INFO -- : [af1280b1-2962-48c7-9817-bba64531a159] Started GET "/" for 10.0.2.2 at 2020-05-12 13:58:32 +0000
+I, [2020-05-12T13:58:32.355430 #11160]  INFO -- : [af1280b1-2962-48c7-9817-bba64531a159] Processing by TopController#index as HTML
+I, [2020-05-12T13:58:32.356681 #11160]  INFO -- : [af1280b1-2962-48c7-9817-bba64531a159]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T13:58:32.357896 #11160] DEBUG -- : [af1280b1-2962-48c7-9817-bba64531a159]   [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:58:32.356045') AND (expired_at > '2020-05-12 13:58:32.356045' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T13:58:32.358193 #11160]  INFO -- : [af1280b1-2962-48c7-9817-bba64531a159]   Rendered top/index.html.erb within layouts/application (1.4ms)
+I, [2020-05-12T13:58:32.359169 #11160]  INFO -- : [af1280b1-2962-48c7-9817-bba64531a159]   Rendered shared/_header.html.erb (0.4ms)
+I, [2020-05-12T13:58:32.359732 #11160]  INFO -- : [af1280b1-2962-48c7-9817-bba64531a159]   Rendered shared/_login.html.erb (0.2ms)
+D, [2020-05-12T13:58:32.361278 #11160] DEBUG -- : [af1280b1-2962-48c7-9817-bba64531a159]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:58:32.359928') AND (expired_at > '2020-05-12 13:58:32.359928' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T13:58:32.362294 #11160] DEBUG -- : [af1280b1-2962-48c7-9817-bba64531a159]   [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T13:58:32.362593 #11160]  INFO -- : [af1280b1-2962-48c7-9817-bba64531a159]   Rendered shared/_sidebar.html.erb (3.1ms)
+I, [2020-05-12T13:58:32.362975 #11160]  INFO -- : [af1280b1-2962-48c7-9817-bba64531a159]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T13:58:32.363252 #11160]  INFO -- : [af1280b1-2962-48c7-9817-bba64531a159] Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 1.4ms)
+I, [2020-05-12T13:58:32.367602 #11160]  INFO -- : [0fc6cd89-0390-4fea-a336-cdad27353aea] Started GET "/" for 10.0.2.2 at 2020-05-12 13:58:32 +0000
+I, [2020-05-12T13:58:32.368337 #11160]  INFO -- : [0fc6cd89-0390-4fea-a336-cdad27353aea] Processing by TopController#index as HTML
+I, [2020-05-12T13:58:32.370071 #11160]  INFO -- : [0fc6cd89-0390-4fea-a336-cdad27353aea]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T13:58:32.371241 #11160] DEBUG -- : [0fc6cd89-0390-4fea-a336-cdad27353aea]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:58:32.369080') AND (expired_at > '2020-05-12 13:58:32.369080' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T13:58:32.371502 #11160]  INFO -- : [0fc6cd89-0390-4fea-a336-cdad27353aea]   Rendered top/index.html.erb within layouts/application (1.2ms)
+I, [2020-05-12T13:58:32.372432 #11160]  INFO -- : [0fc6cd89-0390-4fea-a336-cdad27353aea]   Rendered shared/_header.html.erb (0.4ms)
+I, [2020-05-12T13:58:32.372953 #11160]  INFO -- : [0fc6cd89-0390-4fea-a336-cdad27353aea]   Rendered shared/_login.html.erb (0.2ms)
+D, [2020-05-12T13:58:32.374070 #11160] DEBUG -- : [0fc6cd89-0390-4fea-a336-cdad27353aea]   [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 13:58:32.373107') AND (expired_at > '2020-05-12 13:58:32.373107' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T13:58:32.375006 #11160] DEBUG -- : [0fc6cd89-0390-4fea-a336-cdad27353aea]   [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T13:58:32.375438 #11160]  INFO -- : [0fc6cd89-0390-4fea-a336-cdad27353aea]   Rendered shared/_sidebar.html.erb (2.7ms)
+I, [2020-05-12T13:58:32.375806 #11160]  INFO -- : [0fc6cd89-0390-4fea-a336-cdad27353aea]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T13:58:32.376201 #11160]  INFO -- : [0fc6cd89-0390-4fea-a336-cdad27353aea] Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 1.4ms)
+I, [2020-05-12T14:08:23.988858 #11321]  INFO -- : [e5158e9c-ac64-46a2-b25c-e16eedb9f25e] Started GET "/entries" for 10.0.2.2 at 2020-05-12 14:08:23 +0000
+I, [2020-05-12T14:08:23.990394 #11321]  INFO -- : [e5158e9c-ac64-46a2-b25c-e16eedb9f25e] Processing by EntriesController#index as HTML
+I, [2020-05-12T14:08:24.004158 #11321]  INFO -- : [e5158e9c-ac64-46a2-b25c-e16eedb9f25e]   Rendering errors/login_required.html.erb within layouts/error
+I, [2020-05-12T14:08:24.054286 #11321]  INFO -- : [e5158e9c-ac64-46a2-b25c-e16eedb9f25e]   Rendered errors/login_required.html.erb within layouts/error (49.8ms)
+I, [2020-05-12T14:08:24.054553 #11321]  INFO -- : [e5158e9c-ac64-46a2-b25c-e16eedb9f25e] Completed 500 Internal Server Error in 64ms
+F, [2020-05-12T14:08:24.055134 #11321] FATAL -- : [e5158e9c-ac64-46a2-b25c-e16eedb9f25e]   
+F, [2020-05-12T14:08:24.055301 #11321] FATAL -- : [e5158e9c-ac64-46a2-b25c-e16eedb9f25e] ActionView::Template::Error (Missing partial shared/_login_form with {:locale=>[:ja], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/vagrant/work/asagao/app/views"
+  * "/home/vagrant/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/kaminari-core-1.2.0/app/views"
+):
+F, [2020-05-12T14:08:24.055477 #11321] FATAL -- : [e5158e9c-ac64-46a2-b25c-e16eedb9f25e]     1: <% @page_title = "ログインが必要です"%>
+[e5158e9c-ac64-46a2-b25c-e16eedb9f25e]     2: <h1><%= @page_title %></h1>
+[e5158e9c-ac64-46a2-b25c-e16eedb9f25e]     3: 
+[e5158e9c-ac64-46a2-b25c-e16eedb9f25e]     4: <%= render "shared/login_form"%>
+F, [2020-05-12T14:08:24.055589 #11321] FATAL -- : [e5158e9c-ac64-46a2-b25c-e16eedb9f25e]   
+F, [2020-05-12T14:08:24.055706 #11321] FATAL -- : [e5158e9c-ac64-46a2-b25c-e16eedb9f25e] app/views/errors/login_required.html.erb:4:in `_app_views_errors_login_required_html_erb___3579203572260454574_38037000'
+[e5158e9c-ac64-46a2-b25c-e16eedb9f25e] app/controllers/application_controller.rb:29:in `rescue_login_required'
+I, [2020-05-12T14:08:24.056073 #11321]  INFO -- : [e5158e9c-ac64-46a2-b25c-e16eedb9f25e] Processing by ErrorsController#show as HTML
+I, [2020-05-12T14:08:24.059414 #11321]  INFO -- : [e5158e9c-ac64-46a2-b25c-e16eedb9f25e]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T14:08:24.059820 #11321]  INFO -- : [e5158e9c-ac64-46a2-b25c-e16eedb9f25e]   Rendered errors/internal_server_error.html.erb within layouts/error (0.3ms)
+I, [2020-05-12T14:08:24.062366 #11321]  INFO -- : [e5158e9c-ac64-46a2-b25c-e16eedb9f25e]   Rendered shared/_footer.html.erb (0.4ms)
+I, [2020-05-12T14:08:24.062598 #11321]  INFO -- : [e5158e9c-ac64-46a2-b25c-e16eedb9f25e] Completed 500 Internal Server Error in 6ms (Views: 6.2ms)
+I, [2020-05-12T14:13:25.595141 #11364]  INFO -- : [7929f22b-e3bd-4c00-9136-09556a2ccba8] Started GET "/entries" for 10.0.2.2 at 2020-05-12 14:13:25 +0000
+I, [2020-05-12T14:13:25.596109 #11364]  INFO -- : [7929f22b-e3bd-4c00-9136-09556a2ccba8] Processing by EntriesController#index as HTML
+I, [2020-05-12T14:13:25.608581 #11364]  INFO -- : [7929f22b-e3bd-4c00-9136-09556a2ccba8]   Rendering errors/login_required.html.erb within layouts/error
+I, [2020-05-12T14:13:25.658135 #11364]  INFO -- : [7929f22b-e3bd-4c00-9136-09556a2ccba8]   Rendered errors/login_required.html.erb within layouts/error (49.3ms)
+I, [2020-05-12T14:13:25.658325 #11364]  INFO -- : [7929f22b-e3bd-4c00-9136-09556a2ccba8] Completed 500 Internal Server Error in 62ms
+F, [2020-05-12T14:13:25.658814 #11364] FATAL -- : [7929f22b-e3bd-4c00-9136-09556a2ccba8]   
+F, [2020-05-12T14:13:25.658914 #11364] FATAL -- : [7929f22b-e3bd-4c00-9136-09556a2ccba8] ActionView::Template::Error (Missing partial shared/_login_form with {:locale=>[:ja], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/vagrant/work/asagao/app/views"
+  * "/home/vagrant/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/kaminari-core-1.2.0/app/views"
+):
+F, [2020-05-12T14:13:25.659107 #11364] FATAL -- : [7929f22b-e3bd-4c00-9136-09556a2ccba8]     1: <% @page_title = "ログインが必要です"%>
+[7929f22b-e3bd-4c00-9136-09556a2ccba8]     2: <h1><%= @page_title %></h1>
+[7929f22b-e3bd-4c00-9136-09556a2ccba8]     3: 
+[7929f22b-e3bd-4c00-9136-09556a2ccba8]     4: <%= render "shared/login_form"%>
+F, [2020-05-12T14:13:25.659217 #11364] FATAL -- : [7929f22b-e3bd-4c00-9136-09556a2ccba8]   
+F, [2020-05-12T14:13:25.659328 #11364] FATAL -- : [7929f22b-e3bd-4c00-9136-09556a2ccba8] app/views/errors/login_required.html.erb:4:in `_app_views_errors_login_required_html_erb___877661305113305566_37081820'
+[7929f22b-e3bd-4c00-9136-09556a2ccba8] app/controllers/application_controller.rb:29:in `rescue_login_required'
+I, [2020-05-12T14:13:25.659691 #11364]  INFO -- : [7929f22b-e3bd-4c00-9136-09556a2ccba8] Processing by ErrorsController#show as HTML
+I, [2020-05-12T14:13:25.662813 #11364]  INFO -- : [7929f22b-e3bd-4c00-9136-09556a2ccba8]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T14:13:25.663250 #11364]  INFO -- : [7929f22b-e3bd-4c00-9136-09556a2ccba8]   Rendered errors/internal_server_error.html.erb within layouts/error (0.3ms)
+I, [2020-05-12T14:13:25.665893 #11364]  INFO -- : [7929f22b-e3bd-4c00-9136-09556a2ccba8]   Rendered shared/_footer.html.erb (0.4ms)
+I, [2020-05-12T14:13:25.666158 #11364]  INFO -- : [7929f22b-e3bd-4c00-9136-09556a2ccba8] Completed 500 Internal Server Error in 6ms (Views: 6.1ms)
+I, [2020-05-12T14:13:26.163150 #11364]  INFO -- : [179d02d4-193d-4138-87fc-6b3fc73ccdde] Started GET "/entries" for 10.0.2.2 at 2020-05-12 14:13:26 +0000
+I, [2020-05-12T14:13:26.164339 #11364]  INFO -- : [179d02d4-193d-4138-87fc-6b3fc73ccdde] Processing by EntriesController#index as HTML
+I, [2020-05-12T14:13:26.165538 #11364]  INFO -- : [179d02d4-193d-4138-87fc-6b3fc73ccdde]   Rendering errors/login_required.html.erb within layouts/error
+I, [2020-05-12T14:13:26.193431 #11364]  INFO -- : [179d02d4-193d-4138-87fc-6b3fc73ccdde]   Rendered errors/login_required.html.erb within layouts/error (27.7ms)
+I, [2020-05-12T14:13:26.193627 #11364]  INFO -- : [179d02d4-193d-4138-87fc-6b3fc73ccdde] Completed 500 Internal Server Error in 29ms
+F, [2020-05-12T14:13:26.194195 #11364] FATAL -- : [179d02d4-193d-4138-87fc-6b3fc73ccdde]   
+F, [2020-05-12T14:13:26.194309 #11364] FATAL -- : [179d02d4-193d-4138-87fc-6b3fc73ccdde] ActionView::Template::Error (Missing partial shared/_login_form with {:locale=>[:ja], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/vagrant/work/asagao/app/views"
+  * "/home/vagrant/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/kaminari-core-1.2.0/app/views"
+):
+F, [2020-05-12T14:13:26.194452 #11364] FATAL -- : [179d02d4-193d-4138-87fc-6b3fc73ccdde]     1: <% @page_title = "ログインが必要です"%>
+[179d02d4-193d-4138-87fc-6b3fc73ccdde]     2: <h1><%= @page_title %></h1>
+[179d02d4-193d-4138-87fc-6b3fc73ccdde]     3: 
+[179d02d4-193d-4138-87fc-6b3fc73ccdde]     4: <%= render "shared/login_form"%>
+F, [2020-05-12T14:13:26.194527 #11364] FATAL -- : [179d02d4-193d-4138-87fc-6b3fc73ccdde]   
+F, [2020-05-12T14:13:26.194601 #11364] FATAL -- : [179d02d4-193d-4138-87fc-6b3fc73ccdde] app/views/errors/login_required.html.erb:4:in `_app_views_errors_login_required_html_erb___877661305113305566_37081820'
+[179d02d4-193d-4138-87fc-6b3fc73ccdde] app/controllers/application_controller.rb:29:in `rescue_login_required'
+I, [2020-05-12T14:13:26.194946 #11364]  INFO -- : [179d02d4-193d-4138-87fc-6b3fc73ccdde] Processing by ErrorsController#show as HTML
+I, [2020-05-12T14:13:26.195333 #11364]  INFO -- : [179d02d4-193d-4138-87fc-6b3fc73ccdde]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T14:13:26.195477 #11364]  INFO -- : [179d02d4-193d-4138-87fc-6b3fc73ccdde]   Rendered errors/internal_server_error.html.erb within layouts/error (0.0ms)
+I, [2020-05-12T14:13:26.196074 #11364]  INFO -- : [179d02d4-193d-4138-87fc-6b3fc73ccdde]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:13:26.196383 #11364]  INFO -- : [179d02d4-193d-4138-87fc-6b3fc73ccdde] Completed 500 Internal Server Error in 1ms (Views: 1.2ms)
+I, [2020-05-12T14:13:26.358132 #11364]  INFO -- : [3f2d9f47-2914-42b4-88d3-944067003c94] Started GET "/entries" for 10.0.2.2 at 2020-05-12 14:13:26 +0000
+I, [2020-05-12T14:13:26.358854 #11364]  INFO -- : [3f2d9f47-2914-42b4-88d3-944067003c94] Processing by EntriesController#index as HTML
+I, [2020-05-12T14:13:26.359776 #11364]  INFO -- : [3f2d9f47-2914-42b4-88d3-944067003c94]   Rendering errors/login_required.html.erb within layouts/error
+I, [2020-05-12T14:13:26.383298 #11364]  INFO -- : [3f2d9f47-2914-42b4-88d3-944067003c94]   Rendered errors/login_required.html.erb within layouts/error (23.3ms)
+I, [2020-05-12T14:13:26.383565 #11364]  INFO -- : [3f2d9f47-2914-42b4-88d3-944067003c94] Completed 500 Internal Server Error in 24ms
+F, [2020-05-12T14:13:26.384248 #11364] FATAL -- : [3f2d9f47-2914-42b4-88d3-944067003c94]   
+F, [2020-05-12T14:13:26.384424 #11364] FATAL -- : [3f2d9f47-2914-42b4-88d3-944067003c94] ActionView::Template::Error (Missing partial shared/_login_form with {:locale=>[:ja], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/vagrant/work/asagao/app/views"
+  * "/home/vagrant/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/kaminari-core-1.2.0/app/views"
+):
+F, [2020-05-12T14:13:26.384654 #11364] FATAL -- : [3f2d9f47-2914-42b4-88d3-944067003c94]     1: <% @page_title = "ログインが必要です"%>
+[3f2d9f47-2914-42b4-88d3-944067003c94]     2: <h1><%= @page_title %></h1>
+[3f2d9f47-2914-42b4-88d3-944067003c94]     3: 
+[3f2d9f47-2914-42b4-88d3-944067003c94]     4: <%= render "shared/login_form"%>
+F, [2020-05-12T14:13:26.384821 #11364] FATAL -- : [3f2d9f47-2914-42b4-88d3-944067003c94]   
+F, [2020-05-12T14:13:26.385013 #11364] FATAL -- : [3f2d9f47-2914-42b4-88d3-944067003c94] app/views/errors/login_required.html.erb:4:in `_app_views_errors_login_required_html_erb___877661305113305566_37081820'
+[3f2d9f47-2914-42b4-88d3-944067003c94] app/controllers/application_controller.rb:29:in `rescue_login_required'
+I, [2020-05-12T14:13:26.385439 #11364]  INFO -- : [3f2d9f47-2914-42b4-88d3-944067003c94] Processing by ErrorsController#show as HTML
+I, [2020-05-12T14:13:26.385934 #11364]  INFO -- : [3f2d9f47-2914-42b4-88d3-944067003c94]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T14:13:26.386163 #11364]  INFO -- : [3f2d9f47-2914-42b4-88d3-944067003c94]   Rendered errors/internal_server_error.html.erb within layouts/error (0.0ms)
+I, [2020-05-12T14:13:26.386715 #11364]  INFO -- : [3f2d9f47-2914-42b4-88d3-944067003c94]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:13:26.387000 #11364]  INFO -- : [3f2d9f47-2914-42b4-88d3-944067003c94] Completed 500 Internal Server Error in 1ms (Views: 1.2ms)
+I, [2020-05-12T14:13:26.984464 #11364]  INFO -- : [ef290e0c-8cb0-4a9c-b0af-9f809dcc53ee] Started GET "/" for 10.0.2.2 at 2020-05-12 14:13:26 +0000
+I, [2020-05-12T14:13:26.985269 #11364]  INFO -- : [ef290e0c-8cb0-4a9c-b0af-9f809dcc53ee] Processing by TopController#index as HTML
+I, [2020-05-12T14:13:27.001464 #11364]  INFO -- : [ef290e0c-8cb0-4a9c-b0af-9f809dcc53ee]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:13:27.004419 #11364] DEBUG -- : [ef290e0c-8cb0-4a9c-b0af-9f809dcc53ee]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:13:26.986672') AND (expired_at > '2020-05-12 14:13:26.986672' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:13:27.004733 #11364]  INFO -- : [ef290e0c-8cb0-4a9c-b0af-9f809dcc53ee]   Rendered top/index.html.erb within layouts/application (3.1ms)
+I, [2020-05-12T14:13:27.010287 #11364]  INFO -- : [ef290e0c-8cb0-4a9c-b0af-9f809dcc53ee]   Rendered shared/_header.html.erb (1.4ms)
+I, [2020-05-12T14:13:27.019358 #11364]  INFO -- : [ef290e0c-8cb0-4a9c-b0af-9f809dcc53ee]   Rendered shared/_login.html.erb (0.7ms)
+D, [2020-05-12T14:13:27.020872 #11364] DEBUG -- : [ef290e0c-8cb0-4a9c-b0af-9f809dcc53ee]   [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:13:27.019600') AND (expired_at > '2020-05-12 14:13:27.019600' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:13:27.023655 #11364] DEBUG -- : [ef290e0c-8cb0-4a9c-b0af-9f809dcc53ee]   [1m[36mEntry Load (0.6ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:13:27.023920 #11364]  INFO -- : [ef290e0c-8cb0-4a9c-b0af-9f809dcc53ee]   Rendered shared/_sidebar.html.erb (9.5ms)
+I, [2020-05-12T14:13:27.024314 #11364]  INFO -- : [ef290e0c-8cb0-4a9c-b0af-9f809dcc53ee]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:13:27.024639 #11364]  INFO -- : [ef290e0c-8cb0-4a9c-b0af-9f809dcc53ee] Completed 200 OK in 39ms (Views: 24.2ms | ActiveRecord: 4.6ms)
+I, [2020-05-12T14:13:33.329624 #11364]  INFO -- : [5a011bae-502e-49c4-abd6-375060700810] Started POST "/session" for 10.0.2.2 at 2020-05-12 14:13:33 +0000
+I, [2020-05-12T14:13:33.330454 #11364]  INFO -- : [5a011bae-502e-49c4-abd6-375060700810] Processing by SessionsController#create as HTML
+I, [2020-05-12T14:13:33.330655 #11364]  INFO -- : [5a011bae-502e-49c4-abd6-375060700810]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"1qwRw1n3rAyFqnHORpHxSak2r+MWuMVx/OG7hjNDUWKmkGrN28rzH6Uj6aFLAQCiNiOffo9EGB4K+eu+OC9Agg==", "name"=>"Jiro", "password"=>"[FILTERED]"}
+D, [2020-05-12T14:13:33.334639 #11364] DEBUG -- : [5a011bae-502e-49c4-abd6-375060700810]   [1m[36mMember Load (0.5ms)[0m  [1m[34mSELECT  "members".* FROM "members" WHERE "members"."name" = ? LIMIT ?[0m  [["name", "Jiro"], ["LIMIT", 1]]
+I, [2020-05-12T14:13:33.335156 #11364]  INFO -- : [5a011bae-502e-49c4-abd6-375060700810] Redirected to http://localhost:3000/
+I, [2020-05-12T14:13:33.335433 #11364]  INFO -- : [5a011bae-502e-49c4-abd6-375060700810] Completed 302 Found in 5ms (ActiveRecord: 1.7ms)
+I, [2020-05-12T14:13:33.339597 #11364]  INFO -- : [1e162a50-5249-4542-bdfa-fa5f07d58a2d] Started GET "/" for 10.0.2.2 at 2020-05-12 14:13:33 +0000
+I, [2020-05-12T14:13:33.340287 #11364]  INFO -- : [1e162a50-5249-4542-bdfa-fa5f07d58a2d] Processing by TopController#index as HTML
+I, [2020-05-12T14:13:33.341692 #11364]  INFO -- : [1e162a50-5249-4542-bdfa-fa5f07d58a2d]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:13:33.342678 #11364] DEBUG -- : [1e162a50-5249-4542-bdfa-fa5f07d58a2d]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:13:33.340949') AND (expired_at > '2020-05-12 14:13:33.340949' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:13:33.342914 #11364]  INFO -- : [1e162a50-5249-4542-bdfa-fa5f07d58a2d]   Rendered top/index.html.erb within layouts/application (1.0ms)
+I, [2020-05-12T14:13:33.343808 #11364]  INFO -- : [1e162a50-5249-4542-bdfa-fa5f07d58a2d]   Rendered shared/_header.html.erb (0.3ms)
+I, [2020-05-12T14:13:33.344427 #11364]  INFO -- : [1e162a50-5249-4542-bdfa-fa5f07d58a2d]   Rendered shared/_login.html.erb (0.2ms)
+D, [2020-05-12T14:13:33.345710 #11364] DEBUG -- : [1e162a50-5249-4542-bdfa-fa5f07d58a2d]   [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:13:33.344633') AND (expired_at > '2020-05-12 14:13:33.344633' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:13:33.346815 #11364] DEBUG -- : [1e162a50-5249-4542-bdfa-fa5f07d58a2d]   [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:13:33.346995 #11364]  INFO -- : [1e162a50-5249-4542-bdfa-fa5f07d58a2d]   Rendered shared/_sidebar.html.erb (2.8ms)
+I, [2020-05-12T14:13:33.347354 #11364]  INFO -- : [1e162a50-5249-4542-bdfa-fa5f07d58a2d]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:13:33.347690 #11364]  INFO -- : [1e162a50-5249-4542-bdfa-fa5f07d58a2d] Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 1.5ms)
+I, [2020-05-12T14:14:35.981452 #11406]  INFO -- : [99fb5bac-272a-4677-b8cd-910eeceac5f6] Started GET "/" for 10.0.2.2 at 2020-05-12 14:14:35 +0000
+I, [2020-05-12T14:14:35.982760 #11406]  INFO -- : [99fb5bac-272a-4677-b8cd-910eeceac5f6] Processing by TopController#index as HTML
+I, [2020-05-12T14:14:36.005643 #11406]  INFO -- : [99fb5bac-272a-4677-b8cd-910eeceac5f6]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:14:36.007933 #11406] DEBUG -- : [99fb5bac-272a-4677-b8cd-910eeceac5f6]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:14:35.991137') AND (expired_at > '2020-05-12 14:14:35.991137' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:14:36.008163 #11406]  INFO -- : [99fb5bac-272a-4677-b8cd-910eeceac5f6]   Rendered top/index.html.erb within layouts/application (2.3ms)
+I, [2020-05-12T14:14:36.011947 #11406]  INFO -- : [99fb5bac-272a-4677-b8cd-910eeceac5f6]   Rendered shared/_header.html.erb (0.8ms)
+I, [2020-05-12T14:14:36.017769 #11406]  INFO -- : [99fb5bac-272a-4677-b8cd-910eeceac5f6]   Rendered shared/_login.html.erb (0.5ms)
+D, [2020-05-12T14:14:36.019036 #11406] DEBUG -- : [99fb5bac-272a-4677-b8cd-910eeceac5f6]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:14:36.017948') AND (expired_at > '2020-05-12 14:14:36.017948' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:14:36.020833 #11406] DEBUG -- : [99fb5bac-272a-4677-b8cd-910eeceac5f6]   [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:14:36.020991 #11406]  INFO -- : [99fb5bac-272a-4677-b8cd-910eeceac5f6]   Rendered shared/_sidebar.html.erb (6.3ms)
+I, [2020-05-12T14:14:36.023362 #11406]  INFO -- : [99fb5bac-272a-4677-b8cd-910eeceac5f6]   Rendered shared/_footer.html.erb (0.3ms)
+I, [2020-05-12T14:14:36.023663 #11406]  INFO -- : [99fb5bac-272a-4677-b8cd-910eeceac5f6] Completed 200 OK in 41ms (Views: 20.2ms | ActiveRecord: 4.1ms)
+I, [2020-05-12T14:14:36.434154 #11406]  INFO -- : [f9f6586e-de57-4cd5-80e6-3cf93090f59b] Started GET "/" for 10.0.2.2 at 2020-05-12 14:14:36 +0000
+I, [2020-05-12T14:14:36.434877 #11406]  INFO -- : [f9f6586e-de57-4cd5-80e6-3cf93090f59b] Processing by TopController#index as HTML
+I, [2020-05-12T14:14:36.436545 #11406]  INFO -- : [f9f6586e-de57-4cd5-80e6-3cf93090f59b]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:14:36.437670 #11406] DEBUG -- : [f9f6586e-de57-4cd5-80e6-3cf93090f59b]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:14:36.435685') AND (expired_at > '2020-05-12 14:14:36.435685' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:14:36.437886 #11406]  INFO -- : [f9f6586e-de57-4cd5-80e6-3cf93090f59b]   Rendered top/index.html.erb within layouts/application (1.1ms)
+I, [2020-05-12T14:14:36.438919 #11406]  INFO -- : [f9f6586e-de57-4cd5-80e6-3cf93090f59b]   Rendered shared/_header.html.erb (0.4ms)
+I, [2020-05-12T14:14:36.439538 #11406]  INFO -- : [f9f6586e-de57-4cd5-80e6-3cf93090f59b]   Rendered shared/_login.html.erb (0.2ms)
+D, [2020-05-12T14:14:36.441195 #11406] DEBUG -- : [f9f6586e-de57-4cd5-80e6-3cf93090f59b]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:14:36.439741') AND (expired_at > '2020-05-12 14:14:36.439741' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:14:36.442281 #11406] DEBUG -- : [f9f6586e-de57-4cd5-80e6-3cf93090f59b]   [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:14:36.442537 #11406]  INFO -- : [f9f6586e-de57-4cd5-80e6-3cf93090f59b]   Rendered shared/_sidebar.html.erb (3.3ms)
+I, [2020-05-12T14:14:36.442885 #11406]  INFO -- : [f9f6586e-de57-4cd5-80e6-3cf93090f59b]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:14:36.443180 #11406]  INFO -- : [f9f6586e-de57-4cd5-80e6-3cf93090f59b] Completed 200 OK in 8ms (Views: 5.2ms | ActiveRecord: 1.7ms)
+I, [2020-05-12T14:14:36.614058 #11406]  INFO -- : [38494e33-2e3e-40be-8f6a-f49ae250999f] Started GET "/" for 10.0.2.2 at 2020-05-12 14:14:36 +0000
+I, [2020-05-12T14:14:36.614757 #11406]  INFO -- : [38494e33-2e3e-40be-8f6a-f49ae250999f] Processing by TopController#index as HTML
+I, [2020-05-12T14:14:36.616152 #11406]  INFO -- : [38494e33-2e3e-40be-8f6a-f49ae250999f]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:14:36.617145 #11406] DEBUG -- : [38494e33-2e3e-40be-8f6a-f49ae250999f]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:14:36.615429') AND (expired_at > '2020-05-12 14:14:36.615429' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:14:36.617480 #11406]  INFO -- : [38494e33-2e3e-40be-8f6a-f49ae250999f]   Rendered top/index.html.erb within layouts/application (1.1ms)
+I, [2020-05-12T14:14:36.618491 #11406]  INFO -- : [38494e33-2e3e-40be-8f6a-f49ae250999f]   Rendered shared/_header.html.erb (0.4ms)
+I, [2020-05-12T14:14:36.619104 #11406]  INFO -- : [38494e33-2e3e-40be-8f6a-f49ae250999f]   Rendered shared/_login.html.erb (0.2ms)
+D, [2020-05-12T14:14:36.620405 #11406] DEBUG -- : [38494e33-2e3e-40be-8f6a-f49ae250999f]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:14:36.619304') AND (expired_at > '2020-05-12 14:14:36.619304' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:14:36.621315 #11406] DEBUG -- : [38494e33-2e3e-40be-8f6a-f49ae250999f]   [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:14:36.621565 #11406]  INFO -- : [38494e33-2e3e-40be-8f6a-f49ae250999f]   Rendered shared/_sidebar.html.erb (2.8ms)
+I, [2020-05-12T14:14:36.621862 #11406]  INFO -- : [38494e33-2e3e-40be-8f6a-f49ae250999f]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:14:36.622170 #11406]  INFO -- : [38494e33-2e3e-40be-8f6a-f49ae250999f] Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 1.3ms)
+I, [2020-05-12T14:14:36.776005 #11406]  INFO -- : [faf1df31-417f-45fd-acf0-cfc917ff4103] Started GET "/" for 10.0.2.2 at 2020-05-12 14:14:36 +0000
+I, [2020-05-12T14:14:36.776685 #11406]  INFO -- : [faf1df31-417f-45fd-acf0-cfc917ff4103] Processing by TopController#index as HTML
+I, [2020-05-12T14:14:36.778060 #11406]  INFO -- : [faf1df31-417f-45fd-acf0-cfc917ff4103]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:14:36.779170 #11406] DEBUG -- : [faf1df31-417f-45fd-acf0-cfc917ff4103]   [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:14:36.777355') AND (expired_at > '2020-05-12 14:14:36.777355' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:14:36.779469 #11406]  INFO -- : [faf1df31-417f-45fd-acf0-cfc917ff4103]   Rendered top/index.html.erb within layouts/application (1.2ms)
+I, [2020-05-12T14:14:36.780848 #11406]  INFO -- : [faf1df31-417f-45fd-acf0-cfc917ff4103]   Rendered shared/_header.html.erb (0.4ms)
+I, [2020-05-12T14:14:36.782236 #11406]  INFO -- : [faf1df31-417f-45fd-acf0-cfc917ff4103]   Rendered shared/_login.html.erb (0.3ms)
+D, [2020-05-12T14:14:36.783867 #11406] DEBUG -- : [faf1df31-417f-45fd-acf0-cfc917ff4103]   [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:14:36.782543') AND (expired_at > '2020-05-12 14:14:36.782543' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:14:36.785337 #11406] DEBUG -- : [faf1df31-417f-45fd-acf0-cfc917ff4103]   [1m[36mEntry Load (0.6ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:14:36.785609 #11406]  INFO -- : [faf1df31-417f-45fd-acf0-cfc917ff4103]   Rendered shared/_sidebar.html.erb (4.3ms)
+I, [2020-05-12T14:14:36.786074 #11406]  INFO -- : [faf1df31-417f-45fd-acf0-cfc917ff4103]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:14:36.786428 #11406]  INFO -- : [faf1df31-417f-45fd-acf0-cfc917ff4103] Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 1.8ms)
+I, [2020-05-12T14:14:37.998506 #11406]  INFO -- : [a48fa3f1-3649-4a02-a1ab-49194d6632c4] Started GET "/articles" for 10.0.2.2 at 2020-05-12 14:14:37 +0000
+I, [2020-05-12T14:14:37.999365 #11406]  INFO -- : [a48fa3f1-3649-4a02-a1ab-49194d6632c4] Processing by ArticlesController#index as HTML
+I, [2020-05-12T14:14:38.008583 #11406]  INFO -- : [a48fa3f1-3649-4a02-a1ab-49194d6632c4]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T14:14:38.009381 #11406]  INFO -- : [a48fa3f1-3649-4a02-a1ab-49194d6632c4]   Rendered errors/internal_server_error.html.erb within layouts/error (0.6ms)
+I, [2020-05-12T14:14:38.010621 #11406]  INFO -- : [a48fa3f1-3649-4a02-a1ab-49194d6632c4]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:14:38.011068 #11406]  INFO -- : [a48fa3f1-3649-4a02-a1ab-49194d6632c4] Completed 500 Internal Server Error in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+I, [2020-05-12T14:14:38.950959 #11406]  INFO -- : [255f9b1f-c17f-42a2-b099-292d9139bde9] Started GET "/" for 10.0.2.2 at 2020-05-12 14:14:38 +0000
+I, [2020-05-12T14:14:38.951922 #11406]  INFO -- : [255f9b1f-c17f-42a2-b099-292d9139bde9] Processing by TopController#index as HTML
+I, [2020-05-12T14:14:38.954159 #11406]  INFO -- : [255f9b1f-c17f-42a2-b099-292d9139bde9]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:14:38.955951 #11406] DEBUG -- : [255f9b1f-c17f-42a2-b099-292d9139bde9]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:14:38.952787') AND (expired_at > '2020-05-12 14:14:38.952787' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:14:38.956324 #11406]  INFO -- : [255f9b1f-c17f-42a2-b099-292d9139bde9]   Rendered top/index.html.erb within layouts/application (1.9ms)
+I, [2020-05-12T14:14:38.957412 #11406]  INFO -- : [255f9b1f-c17f-42a2-b099-292d9139bde9]   Rendered shared/_header.html.erb (0.4ms)
+I, [2020-05-12T14:14:38.958002 #11406]  INFO -- : [255f9b1f-c17f-42a2-b099-292d9139bde9]   Rendered shared/_login.html.erb (0.2ms)
+D, [2020-05-12T14:14:38.959433 #11406] DEBUG -- : [255f9b1f-c17f-42a2-b099-292d9139bde9]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:14:38.958262') AND (expired_at > '2020-05-12 14:14:38.958262' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:14:38.960769 #11406] DEBUG -- : [255f9b1f-c17f-42a2-b099-292d9139bde9]   [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:14:38.961071 #11406]  INFO -- : [255f9b1f-c17f-42a2-b099-292d9139bde9]   Rendered shared/_sidebar.html.erb (3.3ms)
+I, [2020-05-12T14:14:38.961433 #11406]  INFO -- : [255f9b1f-c17f-42a2-b099-292d9139bde9]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:14:38.961742 #11406]  INFO -- : [255f9b1f-c17f-42a2-b099-292d9139bde9] Completed 200 OK in 10ms (Views: 5.9ms | ActiveRecord: 1.9ms)
+I, [2020-05-12T14:14:38.964661 #11406]  INFO -- : [0af25964-92fa-4215-a097-1009425dd66c] Started GET "/" for 10.0.2.2 at 2020-05-12 14:14:38 +0000
+I, [2020-05-12T14:14:38.965370 #11406]  INFO -- : [0af25964-92fa-4215-a097-1009425dd66c] Processing by TopController#index as HTML
+I, [2020-05-12T14:14:38.966833 #11406]  INFO -- : [0af25964-92fa-4215-a097-1009425dd66c]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:14:38.968024 #11406] DEBUG -- : [0af25964-92fa-4215-a097-1009425dd66c]   [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:14:38.966063') AND (expired_at > '2020-05-12 14:14:38.966063' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:14:38.968358 #11406]  INFO -- : [0af25964-92fa-4215-a097-1009425dd66c]   Rendered top/index.html.erb within layouts/application (1.2ms)
+I, [2020-05-12T14:14:38.969862 #11406]  INFO -- : [0af25964-92fa-4215-a097-1009425dd66c]   Rendered shared/_header.html.erb (0.3ms)
+I, [2020-05-12T14:14:38.970511 #11406]  INFO -- : [0af25964-92fa-4215-a097-1009425dd66c]   Rendered shared/_login.html.erb (0.2ms)
+D, [2020-05-12T14:14:38.971846 #11406] DEBUG -- : [0af25964-92fa-4215-a097-1009425dd66c]   [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:14:38.970762') AND (expired_at > '2020-05-12 14:14:38.970762' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:14:38.972911 #11406] DEBUG -- : [0af25964-92fa-4215-a097-1009425dd66c]   [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:14:38.973166 #11406]  INFO -- : [0af25964-92fa-4215-a097-1009425dd66c]   Rendered shared/_sidebar.html.erb (3.0ms)
+I, [2020-05-12T14:14:38.973504 #11406]  INFO -- : [0af25964-92fa-4215-a097-1009425dd66c]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:14:38.973798 #11406]  INFO -- : [0af25964-92fa-4215-a097-1009425dd66c] Completed 200 OK in 8ms (Views: 5.7ms | ActiveRecord: 1.4ms)
+I, [2020-05-12T14:14:38.978851 #11406]  INFO -- : [2175be6b-c859-4994-b5e8-b9a35235e261] Started GET "/" for 10.0.2.2 at 2020-05-12 14:14:38 +0000
+I, [2020-05-12T14:14:38.979489 #11406]  INFO -- : [2175be6b-c859-4994-b5e8-b9a35235e261] Processing by TopController#index as HTML
+I, [2020-05-12T14:14:38.980957 #11406]  INFO -- : [2175be6b-c859-4994-b5e8-b9a35235e261]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:14:38.982175 #11406] DEBUG -- : [2175be6b-c859-4994-b5e8-b9a35235e261]   [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:14:38.980047') AND (expired_at > '2020-05-12 14:14:38.980047' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:14:38.982469 #11406]  INFO -- : [2175be6b-c859-4994-b5e8-b9a35235e261]   Rendered top/index.html.erb within layouts/application (1.2ms)
+I, [2020-05-12T14:14:38.983718 #11406]  INFO -- : [2175be6b-c859-4994-b5e8-b9a35235e261]   Rendered shared/_header.html.erb (0.4ms)
+I, [2020-05-12T14:14:38.984560 #11406]  INFO -- : [2175be6b-c859-4994-b5e8-b9a35235e261]   Rendered shared/_login.html.erb (0.3ms)
+D, [2020-05-12T14:14:38.986179 #11406] DEBUG -- : [2175be6b-c859-4994-b5e8-b9a35235e261]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:14:38.984744') AND (expired_at > '2020-05-12 14:14:38.984744' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:14:38.987506 #11406] DEBUG -- : [2175be6b-c859-4994-b5e8-b9a35235e261]   [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:14:38.987799 #11406]  INFO -- : [2175be6b-c859-4994-b5e8-b9a35235e261]   Rendered shared/_sidebar.html.erb (3.7ms)
+I, [2020-05-12T14:14:38.988111 #11406]  INFO -- : [2175be6b-c859-4994-b5e8-b9a35235e261]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:14:38.988371 #11406]  INFO -- : [2175be6b-c859-4994-b5e8-b9a35235e261] Completed 200 OK in 9ms (Views: 5.8ms | ActiveRecord: 1.7ms)
+I, [2020-05-12T14:15:08.486815 #11406]  INFO -- : [7f8fcc3b-2a37-4b14-8e3a-dc37c364944b] Started GET "/" for 10.0.2.2 at 2020-05-12 14:15:08 +0000
+I, [2020-05-12T14:15:08.487497 #11406]  INFO -- : [7f8fcc3b-2a37-4b14-8e3a-dc37c364944b] Processing by TopController#index as HTML
+I, [2020-05-12T14:15:08.488875 #11406]  INFO -- : [7f8fcc3b-2a37-4b14-8e3a-dc37c364944b]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:15:08.490097 #11406] DEBUG -- : [7f8fcc3b-2a37-4b14-8e3a-dc37c364944b]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:08.488200') AND (expired_at > '2020-05-12 14:15:08.488200' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:15:08.490324 #11406]  INFO -- : [7f8fcc3b-2a37-4b14-8e3a-dc37c364944b]   Rendered top/index.html.erb within layouts/application (1.3ms)
+I, [2020-05-12T14:15:08.491206 #11406]  INFO -- : [7f8fcc3b-2a37-4b14-8e3a-dc37c364944b]   Rendered shared/_header.html.erb (0.4ms)
+I, [2020-05-12T14:15:08.491752 #11406]  INFO -- : [7f8fcc3b-2a37-4b14-8e3a-dc37c364944b]   Rendered shared/_login.html.erb (0.2ms)
+D, [2020-05-12T14:15:08.492996 #11406] DEBUG -- : [7f8fcc3b-2a37-4b14-8e3a-dc37c364944b]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:08.491918') AND (expired_at > '2020-05-12 14:15:08.491918' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:15:08.494416 #11406] DEBUG -- : [7f8fcc3b-2a37-4b14-8e3a-dc37c364944b]   [1m[36mEntry Load (0.7ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:15:08.494734 #11406]  INFO -- : [7f8fcc3b-2a37-4b14-8e3a-dc37c364944b]   Rendered shared/_sidebar.html.erb (3.2ms)
+I, [2020-05-12T14:15:08.495103 #11406]  INFO -- : [7f8fcc3b-2a37-4b14-8e3a-dc37c364944b]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:15:08.495395 #11406]  INFO -- : [7f8fcc3b-2a37-4b14-8e3a-dc37c364944b] Completed 200 OK in 8ms (Views: 4.8ms | ActiveRecord: 1.8ms)
+I, [2020-05-12T14:15:08.782975 #11406]  INFO -- : [1a637974-ce88-40f2-b59c-25c809ebebe2] Started GET "/" for 10.0.2.2 at 2020-05-12 14:15:08 +0000
+I, [2020-05-12T14:15:08.783692 #11406]  INFO -- : [1a637974-ce88-40f2-b59c-25c809ebebe2] Processing by TopController#index as HTML
+I, [2020-05-12T14:15:08.788781 #11406]  INFO -- : [1a637974-ce88-40f2-b59c-25c809ebebe2]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:15:08.790000 #11406] DEBUG -- : [1a637974-ce88-40f2-b59c-25c809ebebe2]   [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:08.784479') AND (expired_at > '2020-05-12 14:15:08.784479' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:15:08.790216 #11406]  INFO -- : [1a637974-ce88-40f2-b59c-25c809ebebe2]   Rendered top/index.html.erb within layouts/application (1.2ms)
+I, [2020-05-12T14:15:08.791092 #11406]  INFO -- : [1a637974-ce88-40f2-b59c-25c809ebebe2]   Rendered shared/_header.html.erb (0.4ms)
+I, [2020-05-12T14:15:08.791568 #11406]  INFO -- : [1a637974-ce88-40f2-b59c-25c809ebebe2]   Rendered shared/_login.html.erb (0.2ms)
+D, [2020-05-12T14:15:08.792666 #11406] DEBUG -- : [1a637974-ce88-40f2-b59c-25c809ebebe2]   [1m[36mArticle Load (0.3ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:08.791711') AND (expired_at > '2020-05-12 14:15:08.791711' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:15:08.793527 #11406] DEBUG -- : [1a637974-ce88-40f2-b59c-25c809ebebe2]   [1m[36mEntry Load (0.3ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:15:08.793873 #11406]  INFO -- : [1a637974-ce88-40f2-b59c-25c809ebebe2]   Rendered shared/_sidebar.html.erb (2.5ms)
+I, [2020-05-12T14:15:08.794328 #11406]  INFO -- : [1a637974-ce88-40f2-b59c-25c809ebebe2]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:15:08.794638 #11406]  INFO -- : [1a637974-ce88-40f2-b59c-25c809ebebe2] Completed 200 OK in 11ms (Views: 4.7ms | ActiveRecord: 1.2ms)
+I, [2020-05-12T14:15:08.980350 #11406]  INFO -- : [9f8a4d08-0935-43ca-ad58-555a6693e091] Started GET "/" for 10.0.2.2 at 2020-05-12 14:15:08 +0000
+I, [2020-05-12T14:15:08.981197 #11406]  INFO -- : [9f8a4d08-0935-43ca-ad58-555a6693e091] Processing by TopController#index as HTML
+I, [2020-05-12T14:15:08.982828 #11406]  INFO -- : [9f8a4d08-0935-43ca-ad58-555a6693e091]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:15:08.984047 #11406] DEBUG -- : [9f8a4d08-0935-43ca-ad58-555a6693e091]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:08.982010') AND (expired_at > '2020-05-12 14:15:08.982010' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:15:08.984315 #11406]  INFO -- : [9f8a4d08-0935-43ca-ad58-555a6693e091]   Rendered top/index.html.erb within layouts/application (1.1ms)
+I, [2020-05-12T14:15:08.985270 #11406]  INFO -- : [9f8a4d08-0935-43ca-ad58-555a6693e091]   Rendered shared/_header.html.erb (0.4ms)
+I, [2020-05-12T14:15:08.985818 #11406]  INFO -- : [9f8a4d08-0935-43ca-ad58-555a6693e091]   Rendered shared/_login.html.erb (0.2ms)
+D, [2020-05-12T14:15:08.987385 #11406] DEBUG -- : [9f8a4d08-0935-43ca-ad58-555a6693e091]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:08.986017') AND (expired_at > '2020-05-12 14:15:08.986017' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:15:08.989008 #11406] DEBUG -- : [9f8a4d08-0935-43ca-ad58-555a6693e091]   [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:15:08.989298 #11406]  INFO -- : [9f8a4d08-0935-43ca-ad58-555a6693e091]   Rendered shared/_sidebar.html.erb (3.8ms)
+I, [2020-05-12T14:15:08.989678 #11406]  INFO -- : [9f8a4d08-0935-43ca-ad58-555a6693e091]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:15:08.989990 #11406]  INFO -- : [9f8a4d08-0935-43ca-ad58-555a6693e091] Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 1.6ms)
+I, [2020-05-12T14:15:09.932677 #11406]  INFO -- : [5f2ed399-28ce-493b-81d9-a7e9be506773] Started GET "/articles" for 10.0.2.2 at 2020-05-12 14:15:09 +0000
+I, [2020-05-12T14:15:09.933550 #11406]  INFO -- : [5f2ed399-28ce-493b-81d9-a7e9be506773] Processing by ArticlesController#index as HTML
+I, [2020-05-12T14:15:09.934803 #11406]  INFO -- : [5f2ed399-28ce-493b-81d9-a7e9be506773]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T14:15:09.935095 #11406]  INFO -- : [5f2ed399-28ce-493b-81d9-a7e9be506773]   Rendered errors/internal_server_error.html.erb within layouts/error (0.0ms)
+I, [2020-05-12T14:15:09.935689 #11406]  INFO -- : [5f2ed399-28ce-493b-81d9-a7e9be506773]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:15:09.935991 #11406]  INFO -- : [5f2ed399-28ce-493b-81d9-a7e9be506773] Completed 500 Internal Server Error in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+I, [2020-05-12T14:15:10.946925 #11406]  INFO -- : [746381fc-f75e-4566-abea-61e4190fcb6b] Started GET "/" for 10.0.2.2 at 2020-05-12 14:15:10 +0000
+I, [2020-05-12T14:15:10.947839 #11406]  INFO -- : [746381fc-f75e-4566-abea-61e4190fcb6b] Processing by TopController#index as HTML
+I, [2020-05-12T14:15:10.949682 #11406]  INFO -- : [746381fc-f75e-4566-abea-61e4190fcb6b]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:15:10.951334 #11406] DEBUG -- : [746381fc-f75e-4566-abea-61e4190fcb6b]   [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:10.948644') AND (expired_at > '2020-05-12 14:15:10.948644' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:15:10.951594 #11406]  INFO -- : [746381fc-f75e-4566-abea-61e4190fcb6b]   Rendered top/index.html.erb within layouts/application (1.7ms)
+I, [2020-05-12T14:15:10.952562 #11406]  INFO -- : [746381fc-f75e-4566-abea-61e4190fcb6b]   Rendered shared/_header.html.erb (0.4ms)
+I, [2020-05-12T14:15:10.953349 #11406]  INFO -- : [746381fc-f75e-4566-abea-61e4190fcb6b]   Rendered shared/_login.html.erb (0.4ms)
+D, [2020-05-12T14:15:10.954776 #11406] DEBUG -- : [746381fc-f75e-4566-abea-61e4190fcb6b]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:10.953570') AND (expired_at > '2020-05-12 14:15:10.953570' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:15:10.955878 #11406] DEBUG -- : [746381fc-f75e-4566-abea-61e4190fcb6b]   [1m[36mEntry Load (0.4ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:15:10.956143 #11406]  INFO -- : [746381fc-f75e-4566-abea-61e4190fcb6b]   Rendered shared/_sidebar.html.erb (3.3ms)
+I, [2020-05-12T14:15:10.956482 #11406]  INFO -- : [746381fc-f75e-4566-abea-61e4190fcb6b]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:15:10.956771 #11406]  INFO -- : [746381fc-f75e-4566-abea-61e4190fcb6b] Completed 200 OK in 9ms (Views: 5.5ms | ActiveRecord: 1.7ms)
+I, [2020-05-12T14:15:10.959566 #11406]  INFO -- : [236f4b1c-dd8b-4ca6-8e7d-13549ed701bd] Started GET "/" for 10.0.2.2 at 2020-05-12 14:15:10 +0000
+I, [2020-05-12T14:15:10.960287 #11406]  INFO -- : [236f4b1c-dd8b-4ca6-8e7d-13549ed701bd] Processing by TopController#index as HTML
+I, [2020-05-12T14:15:10.961664 #11406]  INFO -- : [236f4b1c-dd8b-4ca6-8e7d-13549ed701bd]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:15:10.963143 #11406] DEBUG -- : [236f4b1c-dd8b-4ca6-8e7d-13549ed701bd]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:10.960993') AND (expired_at > '2020-05-12 14:15:10.960993' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:15:10.963855 #11406]  INFO -- : [236f4b1c-dd8b-4ca6-8e7d-13549ed701bd]   Rendered top/index.html.erb within layouts/application (1.9ms)
+I, [2020-05-12T14:15:10.965269 #11406]  INFO -- : [236f4b1c-dd8b-4ca6-8e7d-13549ed701bd]   Rendered shared/_header.html.erb (0.6ms)
+I, [2020-05-12T14:15:10.966020 #11406]  INFO -- : [236f4b1c-dd8b-4ca6-8e7d-13549ed701bd]   Rendered shared/_login.html.erb (0.3ms)
+D, [2020-05-12T14:15:10.967493 #11406] DEBUG -- : [236f4b1c-dd8b-4ca6-8e7d-13549ed701bd]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:10.966215') AND (expired_at > '2020-05-12 14:15:10.966215' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:15:10.969080 #11406] DEBUG -- : [236f4b1c-dd8b-4ca6-8e7d-13549ed701bd]   [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:15:10.969432 #11406]  INFO -- : [236f4b1c-dd8b-4ca6-8e7d-13549ed701bd]   Rendered shared/_sidebar.html.erb (3.7ms)
+I, [2020-05-12T14:15:10.969849 #11406]  INFO -- : [236f4b1c-dd8b-4ca6-8e7d-13549ed701bd]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:15:10.970251 #11406]  INFO -- : [236f4b1c-dd8b-4ca6-8e7d-13549ed701bd] Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 1.9ms)
+I, [2020-05-12T14:15:10.973576 #11406]  INFO -- : [802172e9-cabf-49ce-85d4-ca8d8bfc94ff] Started GET "/" for 10.0.2.2 at 2020-05-12 14:15:10 +0000
+I, [2020-05-12T14:15:10.974135 #11406]  INFO -- : [802172e9-cabf-49ce-85d4-ca8d8bfc94ff] Processing by TopController#index as HTML
+I, [2020-05-12T14:15:10.976329 #11406]  INFO -- : [802172e9-cabf-49ce-85d4-ca8d8bfc94ff]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:15:10.977297 #11406] DEBUG -- : [802172e9-cabf-49ce-85d4-ca8d8bfc94ff]   [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:10.975645') AND (expired_at > '2020-05-12 14:15:10.975645' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:15:10.977580 #11406]  INFO -- : [802172e9-cabf-49ce-85d4-ca8d8bfc94ff]   Rendered top/index.html.erb within layouts/application (1.0ms)
+I, [2020-05-12T14:15:10.978536 #11406]  INFO -- : [802172e9-cabf-49ce-85d4-ca8d8bfc94ff]   Rendered shared/_header.html.erb (0.3ms)
+I, [2020-05-12T14:15:10.979305 #11406]  INFO -- : [802172e9-cabf-49ce-85d4-ca8d8bfc94ff]   Rendered shared/_login.html.erb (0.3ms)
+D, [2020-05-12T14:15:10.981548 #11406] DEBUG -- : [802172e9-cabf-49ce-85d4-ca8d8bfc94ff]   [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:10.979608') AND (expired_at > '2020-05-12 14:15:10.979608' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:15:10.983014 #11406] DEBUG -- : [802172e9-cabf-49ce-85d4-ca8d8bfc94ff]   [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:15:10.983269 #11406]  INFO -- : [802172e9-cabf-49ce-85d4-ca8d8bfc94ff]   Rendered shared/_sidebar.html.erb (4.4ms)
+I, [2020-05-12T14:15:10.983706 #11406]  INFO -- : [802172e9-cabf-49ce-85d4-ca8d8bfc94ff]   Rendered shared/_footer.html.erb (0.2ms)
+I, [2020-05-12T14:15:10.984095 #11406]  INFO -- : [802172e9-cabf-49ce-85d4-ca8d8bfc94ff] Completed 200 OK in 10ms (Views: 6.1ms | ActiveRecord: 1.7ms)
+I, [2020-05-12T14:15:11.713579 #11406]  INFO -- : [570b53ee-db3c-4d8a-90ec-9ac25cea65d7] Started GET "/entries" for 10.0.2.2 at 2020-05-12 14:15:11 +0000
+I, [2020-05-12T14:15:11.714381 #11406]  INFO -- : [570b53ee-db3c-4d8a-90ec-9ac25cea65d7] Processing by EntriesController#index as HTML
+I, [2020-05-12T14:15:11.719043 #11406]  INFO -- : [570b53ee-db3c-4d8a-90ec-9ac25cea65d7]   Rendering errors/login_required.html.erb within layouts/error
+I, [2020-05-12T14:15:11.764200 #11406]  INFO -- : [570b53ee-db3c-4d8a-90ec-9ac25cea65d7]   Rendered errors/login_required.html.erb within layouts/error (44.9ms)
+I, [2020-05-12T14:15:11.764438 #11406]  INFO -- : [570b53ee-db3c-4d8a-90ec-9ac25cea65d7] Completed 500 Internal Server Error in 50ms (ActiveRecord: 0.0ms)
+F, [2020-05-12T14:15:11.765084 #11406] FATAL -- : [570b53ee-db3c-4d8a-90ec-9ac25cea65d7]   
+F, [2020-05-12T14:15:11.765262 #11406] FATAL -- : [570b53ee-db3c-4d8a-90ec-9ac25cea65d7] ActionView::Template::Error (Missing partial shared/_login_form with {:locale=>[:ja], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}. Searched in:
+  * "/home/vagrant/work/asagao/app/views"
+  * "/home/vagrant/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/kaminari-core-1.2.0/app/views"
+):
+F, [2020-05-12T14:15:11.765472 #11406] FATAL -- : [570b53ee-db3c-4d8a-90ec-9ac25cea65d7]     1: <% @page_title = "ログインが必要です"%>
+[570b53ee-db3c-4d8a-90ec-9ac25cea65d7]     2: <h1><%= @page_title %></h1>
+[570b53ee-db3c-4d8a-90ec-9ac25cea65d7]     3: 
+[570b53ee-db3c-4d8a-90ec-9ac25cea65d7]     4: <%= render "shared/login_form"%>
+F, [2020-05-12T14:15:11.765602 #11406] FATAL -- : [570b53ee-db3c-4d8a-90ec-9ac25cea65d7]   
+F, [2020-05-12T14:15:11.765717 #11406] FATAL -- : [570b53ee-db3c-4d8a-90ec-9ac25cea65d7] app/views/errors/login_required.html.erb:4:in `_app_views_errors_login_required_html_erb___3079326665126972331_40812260'
+[570b53ee-db3c-4d8a-90ec-9ac25cea65d7] app/controllers/application_controller.rb:29:in `rescue_login_required'
+I, [2020-05-12T14:15:11.766204 #11406]  INFO -- : [570b53ee-db3c-4d8a-90ec-9ac25cea65d7] Processing by ErrorsController#show as HTML
+I, [2020-05-12T14:15:11.766815 #11406]  INFO -- : [570b53ee-db3c-4d8a-90ec-9ac25cea65d7]   Rendering errors/internal_server_error.html.erb within layouts/error
+I, [2020-05-12T14:15:11.767011 #11406]  INFO -- : [570b53ee-db3c-4d8a-90ec-9ac25cea65d7]   Rendered errors/internal_server_error.html.erb within layouts/error (0.0ms)
+I, [2020-05-12T14:15:11.767606 #11406]  INFO -- : [570b53ee-db3c-4d8a-90ec-9ac25cea65d7]   Rendered shared/_footer.html.erb (0.2ms)
+I, [2020-05-12T14:15:11.767861 #11406]  INFO -- : [570b53ee-db3c-4d8a-90ec-9ac25cea65d7] Completed 500 Internal Server Error in 1ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+I, [2020-05-12T14:15:12.653920 #11406]  INFO -- : [90833d63-cc67-4103-9796-69d4e0fd42b4] Started GET "/" for 10.0.2.2 at 2020-05-12 14:15:12 +0000
+I, [2020-05-12T14:15:12.654715 #11406]  INFO -- : [90833d63-cc67-4103-9796-69d4e0fd42b4] Processing by TopController#index as HTML
+I, [2020-05-12T14:15:12.656546 #11406]  INFO -- : [90833d63-cc67-4103-9796-69d4e0fd42b4]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:15:12.658190 #11406] DEBUG -- : [90833d63-cc67-4103-9796-69d4e0fd42b4]   [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:12.655440') AND (expired_at > '2020-05-12 14:15:12.655440' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:15:12.658664 #11406]  INFO -- : [90833d63-cc67-4103-9796-69d4e0fd42b4]   Rendered top/index.html.erb within layouts/application (1.7ms)
+I, [2020-05-12T14:15:12.659732 #11406]  INFO -- : [90833d63-cc67-4103-9796-69d4e0fd42b4]   Rendered shared/_header.html.erb (0.4ms)
+I, [2020-05-12T14:15:12.660511 #11406]  INFO -- : [90833d63-cc67-4103-9796-69d4e0fd42b4]   Rendered shared/_login.html.erb (0.3ms)
+D, [2020-05-12T14:15:12.662586 #11406] DEBUG -- : [90833d63-cc67-4103-9796-69d4e0fd42b4]   [1m[36mArticle Load (0.8ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:12.660744') AND (expired_at > '2020-05-12 14:15:12.660744' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:15:12.663934 #11406] DEBUG -- : [90833d63-cc67-4103-9796-69d4e0fd42b4]   [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:15:12.664210 #11406]  INFO -- : [90833d63-cc67-4103-9796-69d4e0fd42b4]   Rendered shared/_sidebar.html.erb (4.1ms)
+I, [2020-05-12T14:15:12.664654 #11406]  INFO -- : [90833d63-cc67-4103-9796-69d4e0fd42b4]   Rendered shared/_footer.html.erb (0.2ms)
+I, [2020-05-12T14:15:12.664936 #11406]  INFO -- : [90833d63-cc67-4103-9796-69d4e0fd42b4] Completed 200 OK in 10ms (Views: 6.6ms | ActiveRecord: 2.1ms)
+I, [2020-05-12T14:15:12.679815 #11406]  INFO -- : [2694c75b-be61-4363-824c-d36e3b4b3806] Started GET "/" for 10.0.2.2 at 2020-05-12 14:15:12 +0000
+I, [2020-05-12T14:15:12.680741 #11406]  INFO -- : [2694c75b-be61-4363-824c-d36e3b4b3806] Processing by TopController#index as HTML
+I, [2020-05-12T14:15:12.682069 #11406]  INFO -- : [2694c75b-be61-4363-824c-d36e3b4b3806]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:15:12.683039 #11406] DEBUG -- : [2694c75b-be61-4363-824c-d36e3b4b3806]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:12.681349') AND (expired_at > '2020-05-12 14:15:12.681349' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:15:12.683378 #11406]  INFO -- : [2694c75b-be61-4363-824c-d36e3b4b3806]   Rendered top/index.html.erb within layouts/application (1.2ms)
+I, [2020-05-12T14:15:12.684817 #11406]  INFO -- : [2694c75b-be61-4363-824c-d36e3b4b3806]   Rendered shared/_header.html.erb (0.5ms)
+I, [2020-05-12T14:15:12.685622 #11406]  INFO -- : [2694c75b-be61-4363-824c-d36e3b4b3806]   Rendered shared/_login.html.erb (0.3ms)
+D, [2020-05-12T14:15:12.687603 #11406] DEBUG -- : [2694c75b-be61-4363-824c-d36e3b4b3806]   [1m[36mArticle Load (0.7ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:12.685909') AND (expired_at > '2020-05-12 14:15:12.685909' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:15:12.689042 #11406] DEBUG -- : [2694c75b-be61-4363-824c-d36e3b4b3806]   [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:15:12.689426 #11406]  INFO -- : [2694c75b-be61-4363-824c-d36e3b4b3806]   Rendered shared/_sidebar.html.erb (4.2ms)
+I, [2020-05-12T14:15:12.689899 #11406]  INFO -- : [2694c75b-be61-4363-824c-d36e3b4b3806]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:15:12.690236 #11406]  INFO -- : [2694c75b-be61-4363-824c-d36e3b4b3806] Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 1.7ms)
+I, [2020-05-12T14:15:12.696382 #11406]  INFO -- : [80f944fc-b3bd-46a9-a346-8fa8122d8e17] Started GET "/" for 10.0.2.2 at 2020-05-12 14:15:12 +0000
+I, [2020-05-12T14:15:12.697154 #11406]  INFO -- : [80f944fc-b3bd-46a9-a346-8fa8122d8e17] Processing by TopController#index as HTML
+I, [2020-05-12T14:15:12.698384 #11406]  INFO -- : [80f944fc-b3bd-46a9-a346-8fa8122d8e17]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:15:12.699388 #11406] DEBUG -- : [80f944fc-b3bd-46a9-a346-8fa8122d8e17]   [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:12.697712') AND (expired_at > '2020-05-12 14:15:12.697712' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:15:12.699757 #11406]  INFO -- : [80f944fc-b3bd-46a9-a346-8fa8122d8e17]   Rendered top/index.html.erb within layouts/application (1.2ms)
+I, [2020-05-12T14:15:12.700969 #11406]  INFO -- : [80f944fc-b3bd-46a9-a346-8fa8122d8e17]   Rendered shared/_header.html.erb (0.5ms)
+I, [2020-05-12T14:15:12.701732 #11406]  INFO -- : [80f944fc-b3bd-46a9-a346-8fa8122d8e17]   Rendered shared/_login.html.erb (0.2ms)
+D, [2020-05-12T14:15:12.703090 #11406] DEBUG -- : [80f944fc-b3bd-46a9-a346-8fa8122d8e17]   [1m[36mArticle Load (0.4ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:12.701943') AND (expired_at > '2020-05-12 14:15:12.701943' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:15:12.703899 #11406] DEBUG -- : [80f944fc-b3bd-46a9-a346-8fa8122d8e17]   [1m[36mEntry Load (0.2ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:15:12.704078 #11406]  INFO -- : [80f944fc-b3bd-46a9-a346-8fa8122d8e17]   Rendered shared/_sidebar.html.erb (2.7ms)
+I, [2020-05-12T14:15:12.704319 #11406]  INFO -- : [80f944fc-b3bd-46a9-a346-8fa8122d8e17]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:15:12.704537 #11406]  INFO -- : [80f944fc-b3bd-46a9-a346-8fa8122d8e17] Completed 200 OK in 7ms (Views: 5.0ms | ActiveRecord: 1.3ms)
+I, [2020-05-12T14:15:18.151277 #11406]  INFO -- : [f049a98b-9549-4569-881e-51f978579ad8] Started POST "/session" for 10.0.2.2 at 2020-05-12 14:15:18 +0000
+I, [2020-05-12T14:15:18.152113 #11406]  INFO -- : [f049a98b-9549-4569-881e-51f978579ad8] Processing by SessionsController#create as HTML
+I, [2020-05-12T14:15:18.152287 #11406]  INFO -- : [f049a98b-9549-4569-881e-51f978579ad8]   Parameters: {"utf8"=>"✓", "authenticity_token"=>"eJVz4JNhWHdkJ5bJ4xsRIGjeU1NrKuDd6UxU8BQEeeoIqQjuEVwHZESuDqbui+DL98tjzvLWPbIfVATIH2hoCg==", "name"=>"Taro", "password"=>"[FILTERED]"}
+D, [2020-05-12T14:15:18.157400 #11406] DEBUG -- : [f049a98b-9549-4569-881e-51f978579ad8]   [1m[36mMember Load (1.8ms)[0m  [1m[34mSELECT  "members".* FROM "members" WHERE "members"."name" = ? LIMIT ?[0m  [["name", "Taro"], ["LIMIT", 1]]
+I, [2020-05-12T14:15:18.158230 #11406]  INFO -- : [f049a98b-9549-4569-881e-51f978579ad8] Redirected to http://localhost:3000/
+I, [2020-05-12T14:15:18.158590 #11406]  INFO -- : [f049a98b-9549-4569-881e-51f978579ad8] Completed 302 Found in 6ms (ActiveRecord: 3.1ms)
+I, [2020-05-12T14:15:18.162408 #11406]  INFO -- : [c5a24a76-9d9d-427a-af52-b2e19a56b781] Started GET "/" for 10.0.2.2 at 2020-05-12 14:15:18 +0000
+I, [2020-05-12T14:15:18.162997 #11406]  INFO -- : [c5a24a76-9d9d-427a-af52-b2e19a56b781] Processing by TopController#index as HTML
+I, [2020-05-12T14:15:18.164389 #11406]  INFO -- : [c5a24a76-9d9d-427a-af52-b2e19a56b781]   Rendering top/index.html.erb within layouts/application
+D, [2020-05-12T14:15:18.165465 #11406] DEBUG -- : [c5a24a76-9d9d-427a-af52-b2e19a56b781]   [1m[36mArticle Load (0.6ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:18.163629') AND (expired_at > '2020-05-12 14:15:18.163629' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+I, [2020-05-12T14:15:18.165720 #11406]  INFO -- : [c5a24a76-9d9d-427a-af52-b2e19a56b781]   Rendered top/index.html.erb within layouts/application (1.1ms)
+I, [2020-05-12T14:15:18.166601 #11406]  INFO -- : [c5a24a76-9d9d-427a-af52-b2e19a56b781]   Rendered shared/_header.html.erb (0.3ms)
+I, [2020-05-12T14:15:18.167136 #11406]  INFO -- : [c5a24a76-9d9d-427a-af52-b2e19a56b781]   Rendered shared/_login.html.erb (0.2ms)
+D, [2020-05-12T14:15:18.168358 #11406] DEBUG -- : [c5a24a76-9d9d-427a-af52-b2e19a56b781]   [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE (released_at <= '2020-05-12 14:15:18.167344') AND (expired_at > '2020-05-12 14:15:18.167344' OR expired_at IS NULL) AND "articles"."member_only" = ? ORDER BY "articles"."released_at" DESC LIMIT ?[0m  [["member_only", 0], ["LIMIT", 5]]
+D, [2020-05-12T14:15:18.169563 #11406] DEBUG -- : [c5a24a76-9d9d-427a-af52-b2e19a56b781]   [1m[36mEntry Load (0.5ms)[0m  [1m[34mSELECT  "entries".* FROM "entries" WHERE "entries"."status" = ? ORDER BY "entries"."posted_at" DESC LIMIT ?[0m  [["status", "public"], ["LIMIT", 5]]
+I, [2020-05-12T14:15:18.169805 #11406]  INFO -- : [c5a24a76-9d9d-427a-af52-b2e19a56b781]   Rendered shared/_sidebar.html.erb (2.9ms)
+I, [2020-05-12T14:15:18.170163 #11406]  INFO -- : [c5a24a76-9d9d-427a-af52-b2e19a56b781]   Rendered shared/_footer.html.erb (0.1ms)
+I, [2020-05-12T14:15:18.170472 #11406]  INFO -- : [c5a24a76-9d9d-427a-af52-b2e19a56b781] Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 1.6ms)
