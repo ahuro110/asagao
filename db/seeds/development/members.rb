@@ -15,6 +15,7 @@ gnames = ["太郎", "次郎", "花子"]
   )
 end
 
+
 0.upto(29) do |idx|
   Member.create(
     number: idx + 20,
